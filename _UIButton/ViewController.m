@@ -18,7 +18,7 @@
 -(void) createButton{
     UIButton* bt = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     bt.frame = CGRectMake(100, 100, 160, 60);
-    
+    self.view bringSubviewToFront:<#(nonnull UIView *)#>
     //按下时会变样式
     [bt setTitle:@"Run" forState:UIControlStateNormal];
     [bt setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
