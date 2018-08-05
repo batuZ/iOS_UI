@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4773C3DE21173DE0006DA08C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C3DD21173DE0006DA08C /* AppDelegate.m */; };
+		4773C3E121173DE0006DA08C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C3E021173DE0006DA08C /* ViewController.m */; };
+		4773C3E421173DE1006DA08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C3E221173DE1006DA08C /* Main.storyboard */; };
+		4773C3E621173DE3006DA08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4773C3E521173DE3006DA08C /* Assets.xcassets */; };
+		4773C3E921173DE3006DA08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C3E721173DE3006DA08C /* LaunchScreen.storyboard */; };
+		4773C3EC21173DE3006DA08C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C3EB21173DE3006DA08C /* main.m */; };
 		47DAF9932115CF1A0047E910 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DAF9922115CF1A0047E910 /* AppDelegate.m */; };
 		47DAF9992115CF1A0047E910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DAF9972115CF1A0047E910 /* Main.storyboard */; };
 		47DAF99B2115CF1A0047E910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47DAF99A2115CF1A0047E910 /* Assets.xcassets */; };
@@ -43,6 +49,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4773C3DA21173DE0006DA08C /* _UISwitch 开关控件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "_UISwitch 开关控件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4773C3DC21173DE0006DA08C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4773C3DD21173DE0006DA08C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4773C3DF21173DE0006DA08C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4773C3E021173DE0006DA08C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4773C3E321173DE1006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4773C3E521173DE3006DA08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4773C3E821173DE3006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4773C3EA21173DE3006DA08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4773C3EB21173DE3006DA08C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		47DAF98E2115CF190047E910 /* iOS_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47DAF9912115CF1A0047E910 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		47DAF9922115CF1A0047E910 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -100,6 +116,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4773C3D721173DE0006DA08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		47DAF98B2115CF190047E910 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -138,6 +161,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4773C3DB21173DE0006DA08C /* _UISwitch 开关控件 */ = {
+			isa = PBXGroup;
+			children = (
+				4773C3DC21173DE0006DA08C /* AppDelegate.h */,
+				4773C3DD21173DE0006DA08C /* AppDelegate.m */,
+				4773C3DF21173DE0006DA08C /* ViewController.h */,
+				4773C3E021173DE0006DA08C /* ViewController.m */,
+				4773C3E221173DE1006DA08C /* Main.storyboard */,
+				4773C3E521173DE3006DA08C /* Assets.xcassets */,
+				4773C3E721173DE3006DA08C /* LaunchScreen.storyboard */,
+				4773C3EA21173DE3006DA08C /* Info.plist */,
+				4773C3EB21173DE3006DA08C /* main.m */,
+			);
+			path = "_UISwitch 开关控件";
+			sourceTree = "<group>";
+		};
 		47DAF9852115CF190047E910 = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +184,7 @@
 				47DAF9902115CF190047E910 /* iOS_UI */,
 				47DAF9AE2115D3DC0047E910 /* _UILable */,
 				47DAFA182115DD6E0047E910 /* _UIButton */,
+				4773C3DB21173DE0006DA08C /* _UISwitch 开关控件 */,
 				47DAFA892116F2BA0047E910 /* UIViewController */,
 				47DAFAA8211703970047E910 /* NSTimer 定时器 */,
 				47DAF98F2115CF190047E910 /* Products */,
@@ -159,6 +199,7 @@
 				47DAFA172115DD6E0047E910 /* _UIButton.app */,
 				47DAFA882116F2BA0047E910 /* UIViewController.app */,
 				47DAFAA7211703970047E910 /* NSTimer 定时器.app */,
+				4773C3DA21173DE0006DA08C /* _UISwitch 开关控件.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -249,6 +290,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4773C3D921173DE0006DA08C /* _UISwitch 开关控件 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4773C3EF21173DE3006DA08C /* Build configuration list for PBXNativeTarget "_UISwitch 开关控件" */;
+			buildPhases = (
+				4773C3D621173DE0006DA08C /* Sources */,
+				4773C3D721173DE0006DA08C /* Frameworks */,
+				4773C3D821173DE0006DA08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "_UISwitch 开关控件";
+			productName = "_UISwitch 开关控件";
+			productReference = 4773C3DA21173DE0006DA08C /* _UISwitch 开关控件.app */;
+			productType = "com.apple.product-type.application";
+		};
 		47DAF98D2115CF190047E910 /* iOS_UI */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47DAF9A42115CF1A0047E910 /* Build configuration list for PBXNativeTarget "iOS_UI" */;
@@ -343,6 +401,9 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = gvitech;
 				TargetAttributes = {
+					4773C3D921173DE0006DA08C = {
+						CreatedOnToolsVersion = 9.3;
+					};
 					47DAF98D2115CF190047E910 = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -378,11 +439,22 @@
 				47DAFA162115DD6E0047E910 /* _UIButton */,
 				47DAFA872116F2BA0047E910 /* UIViewController */,
 				47DAFAA6211703970047E910 /* NSTimer 定时器 */,
+				4773C3D921173DE0006DA08C /* _UISwitch 开关控件 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4773C3D821173DE0006DA08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C3E921173DE3006DA08C /* LaunchScreen.storyboard in Resources */,
+				4773C3E621173DE3006DA08C /* Assets.xcassets in Resources */,
+				4773C3E421173DE1006DA08C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		47DAF98C2115CF190047E910 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -438,6 +510,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4773C3D621173DE0006DA08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C3E121173DE0006DA08C /* ViewController.m in Sources */,
+				4773C3EC21173DE3006DA08C /* main.m in Sources */,
+				4773C3DE21173DE0006DA08C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		47DAF98A2115CF190047E910 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -492,6 +574,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		4773C3E221173DE1006DA08C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C3E321173DE1006DA08C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4773C3E721173DE3006DA08C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C3E821173DE3006DA08C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		47DAF9972115CF1A0047E910 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -575,6 +673,40 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4773C3ED21173DE3006DA08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UISwitch 开关控件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UISwitch-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4773C3EE21173DE3006DA08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UISwitch 开关控件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UISwitch-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		47DAF9A22115CF1A0047E910 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -858,6 +990,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4773C3EF21173DE3006DA08C /* Build configuration list for PBXNativeTarget "_UISwitch 开关控件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4773C3ED21173DE3006DA08C /* Debug */,
+				4773C3EE21173DE3006DA08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		47DAF9892115CF190047E910 /* Build configuration list for PBXProject "iOS_UI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
