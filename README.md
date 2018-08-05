@@ -41,6 +41,35 @@ main{
 ```
 
 ## 基础控件
+
+#### UIViewController 的一些事件
+
+关于加载和退出的事件
+``` Objective-C
+//第一次加载此视图，只调用一次
+- (void)viewDidLoad {[super viewDidLoad];}
+
+//视图即将加载时，参数是否使用动画效果
+- (void)viewWillAppear:(BOOL)animated{[super viewWillAppear:YES];}
+
+//视图加载后，每次都会调
+- (void)viewDidAppear:(BOOL)animated{[super viewDidAppear:YES];}
+
+//视图即将退出
+- (void)viewWillDisappear:(BOOL)animated{[super viewWillDisappear:YES];}
+
+//视图退出后
+- (void)viewDidDisappear:(BOOL)animated{[super viewDidDisappear:YES];}
+
+//内存过低时
+- (void)didReceiveMemoryWarning {[super didReceiveMemoryWarning];}
+
+```
+关于用户操作的事件
+``` Objective-C
+//用户点击屏幕时调用
+-(void) touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{}
+```
 #### UIView
         UIView是所有可视控件的父类，如UILable、UIButton等都继承于UIView
         所以，这些控件在加载时都调用IUView的addSubView:UIView方法
