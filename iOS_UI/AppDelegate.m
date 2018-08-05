@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "VC_window.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,22 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //1、初始化window
+    //      先获取当前设备屏幕对象
+    UIScreen* scr = [UIScreen mainScreen];
+    //      获取屏幕尺寸
+    CGRect locaRect = scr.bounds;
+    //      初始化window
+    self.window = [[UIWindow alloc] initWithFrame:locaRect];
+    
+    //2、为window指定根控制器，要先import进来
+    VC_window* VCRoot = [[VC_window alloc] init];
+    self.window.rootViewController = VCRoot;
+    
+    //3、 设置当前window为根，并显示出来
+    [self.window makeKeyAndVisible];
+    VCRoot.view.backgroundColor  = [UIColor redColor];
     return YES;
 }
 
