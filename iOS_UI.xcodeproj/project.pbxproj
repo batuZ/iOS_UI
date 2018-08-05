@@ -33,6 +33,13 @@
 		47DAFA972116F2BB0047E910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DAFA952116F2BB0047E910 /* LaunchScreen.storyboard */; };
 		47DAFA9A2116F2BB0047E910 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DAFA992116F2BB0047E910 /* main.m */; };
 		47DAFAA02116F5CE0047E910 /* ViewYellow.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DAFA9F2116F5CE0047E910 /* ViewYellow.m */; };
+		47DAFAA2211701040047E910 /* buImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DAFAA1211701030047E910 /* buImg.png */; };
+		47DAFAAB211703970047E910 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DAFAAA211703970047E910 /* AppDelegate.m */; };
+		47DAFAAE211703970047E910 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DAFAAD211703970047E910 /* ViewController.m */; };
+		47DAFAB1211703970047E910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DAFAAF211703970047E910 /* Main.storyboard */; };
+		47DAFAB3211703980047E910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47DAFAB2211703980047E910 /* Assets.xcassets */; };
+		47DAFAB6211703980047E910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DAFAB4211703980047E910 /* LaunchScreen.storyboard */; };
+		47DAFAB9211703980047E910 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DAFAB8211703980047E910 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +86,17 @@
 		47DAFA992116F2BB0047E910 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		47DAFA9E2116F5CE0047E910 /* ViewYellow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewYellow.h; sourceTree = "<group>"; };
 		47DAFA9F2116F5CE0047E910 /* ViewYellow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewYellow.m; sourceTree = "<group>"; };
+		47DAFAA1211701030047E910 /* buImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buImg.png; sourceTree = "<group>"; };
+		47DAFAA7211703970047E910 /* NSTimer 定时器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSTimer 定时器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47DAFAA9211703970047E910 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47DAFAAA211703970047E910 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47DAFAAC211703970047E910 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		47DAFAAD211703970047E910 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		47DAFAB0211703970047E910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47DAFAB2211703980047E910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47DAFAB5211703980047E910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47DAFAB7211703980047E910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47DAFAB8211703980047E910 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +128,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47DAFAA4211703970047E910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -121,6 +146,7 @@
 				47DAF9AE2115D3DC0047E910 /* _UILable */,
 				47DAFA182115DD6E0047E910 /* _UIButton */,
 				47DAFA892116F2BA0047E910 /* UIViewController */,
+				47DAFAA8211703970047E910 /* NSTimer 定时器 */,
 				47DAF98F2115CF190047E910 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -132,6 +158,7 @@
 				47DAF9AD2115D3DC0047E910 /* _UILable 标签.app */,
 				47DAFA172115DD6E0047E910 /* _UIButton.app */,
 				47DAFA882116F2BA0047E910 /* UIViewController.app */,
+				47DAFAA7211703970047E910 /* NSTimer 定时器.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,6 +198,7 @@
 		47DAFA182115DD6E0047E910 /* _UIButton */ = {
 			isa = PBXGroup;
 			children = (
+				47DAFAA1211701030047E910 /* buImg.png */,
 				47DAFA192115DD6E0047E910 /* AppDelegate.h */,
 				47DAFA1A2115DD6E0047E910 /* AppDelegate.m */,
 				47DAFA1C2115DD6E0047E910 /* ViewController.h */,
@@ -200,6 +228,22 @@
 				47DAFA9F2116F5CE0047E910 /* ViewYellow.m */,
 			);
 			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		47DAFAA8211703970047E910 /* NSTimer 定时器 */ = {
+			isa = PBXGroup;
+			children = (
+				47DAFAA9211703970047E910 /* AppDelegate.h */,
+				47DAFAAA211703970047E910 /* AppDelegate.m */,
+				47DAFAAC211703970047E910 /* ViewController.h */,
+				47DAFAAD211703970047E910 /* ViewController.m */,
+				47DAFAAF211703970047E910 /* Main.storyboard */,
+				47DAFAB2211703980047E910 /* Assets.xcassets */,
+				47DAFAB4211703980047E910 /* LaunchScreen.storyboard */,
+				47DAFAB7211703980047E910 /* Info.plist */,
+				47DAFAB8211703980047E910 /* main.m */,
+			);
+			path = "NSTimer 定时器";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +317,23 @@
 			productReference = 47DAFA882116F2BA0047E910 /* UIViewController.app */;
 			productType = "com.apple.product-type.application";
 		};
+		47DAFAA6211703970047E910 /* NSTimer 定时器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47DAFABA211703980047E910 /* Build configuration list for PBXNativeTarget "NSTimer 定时器" */;
+			buildPhases = (
+				47DAFAA3211703970047E910 /* Sources */,
+				47DAFAA4211703970047E910 /* Frameworks */,
+				47DAFAA5211703970047E910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSTimer 定时器";
+			productName = "NSTimer 定时器";
+			productReference = 47DAFAA7211703970047E910 /* NSTimer 定时器.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -294,6 +355,9 @@
 					47DAFA872116F2BA0047E910 = {
 						CreatedOnToolsVersion = 9.3;
 					};
+					47DAFAA6211703970047E910 = {
+						CreatedOnToolsVersion = 9.3;
+					};
 				};
 			};
 			buildConfigurationList = 47DAF9892115CF190047E910 /* Build configuration list for PBXProject "iOS_UI" */;
@@ -313,6 +377,7 @@
 				47DAF9AC2115D3DC0047E910 /* _UILable 标签 */,
 				47DAFA162115DD6E0047E910 /* _UIButton */,
 				47DAFA872116F2BA0047E910 /* UIViewController */,
+				47DAFAA6211703970047E910 /* NSTimer 定时器 */,
 			);
 		};
 /* End PBXProject section */
@@ -343,6 +408,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47DAFAA2211701040047E910 /* buImg.png in Resources */,
 				47DAFA262115DD6F0047E910 /* LaunchScreen.storyboard in Resources */,
 				47DAFA232115DD6F0047E910 /* Assets.xcassets in Resources */,
 				47DAFA212115DD6E0047E910 /* Main.storyboard in Resources */,
@@ -356,6 +422,16 @@
 				47DAFA972116F2BB0047E910 /* LaunchScreen.storyboard in Resources */,
 				47DAFA942116F2BB0047E910 /* Assets.xcassets in Resources */,
 				47DAFA922116F2BA0047E910 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47DAFAA5211703970047E910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47DAFAB6211703980047E910 /* LaunchScreen.storyboard in Resources */,
+				47DAFAB3211703980047E910 /* Assets.xcassets in Resources */,
+				47DAFAB1211703970047E910 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +476,16 @@
 				47DAFA9A2116F2BB0047E910 /* main.m in Sources */,
 				47DAFAA02116F5CE0047E910 /* ViewYellow.m in Sources */,
 				47DAFA8C2116F2BA0047E910 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47DAFAA3211703970047E910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47DAFAAE211703970047E910 /* ViewController.m in Sources */,
+				47DAFAB9211703980047E910 /* main.m in Sources */,
+				47DAFAAB211703970047E910 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +552,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				47DAFA962116F2BB0047E910 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		47DAFAAF211703970047E910 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47DAFAB0211703970047E910 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47DAFAB4211703980047E910 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47DAFAB5211703980047E910 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -719,6 +821,40 @@
 			};
 			name = Release;
 		};
+		47DAFABB211703980047E910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "NSTimer 定时器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.NSTimer----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47DAFABC211703980047E910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "NSTimer 定时器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.NSTimer----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -763,6 +899,15 @@
 			buildConfigurations = (
 				47DAFA9C2116F2BB0047E910 /* Debug */,
 				47DAFA9D2116F2BB0047E910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47DAFABA211703980047E910 /* Build configuration list for PBXNativeTarget "NSTimer 定时器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47DAFABB211703980047E910 /* Debug */,
+				47DAFABC211703980047E910 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

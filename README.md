@@ -118,6 +118,6 @@ lable.shadowOffset       = CGSizeMake(5, 5);                         //影子的
 lable.shadowColor        = [UIColor blackColor];
 
 #### UIButton
-普通按钮，图像按钮
+普通按钮，图像按钮，设置事件
 
 
