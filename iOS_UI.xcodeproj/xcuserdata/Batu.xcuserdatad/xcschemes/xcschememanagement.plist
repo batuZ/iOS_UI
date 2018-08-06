@@ -7,7 +7,7 @@
 		<key>NSTimer 定时器.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>5</integer>
 		</dict>
 		<key>UIViewController.xcscheme</key>
 		<dict>
@@ -24,10 +24,30 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>_UIProgressView 进度条.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>_UISegmentedControl 分栏控制器.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>_UISlider 滑动条.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>_UIStepper 步进器.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>_UISwitch 开关控件.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>4</integer>
 		</dict>
 		<key>iOS_UI.xcscheme</key>
 		<dict>

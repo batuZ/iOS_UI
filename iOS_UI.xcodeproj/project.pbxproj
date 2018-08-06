@@ -13,6 +13,30 @@
 		4773C3E621173DE3006DA08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4773C3E521173DE3006DA08C /* Assets.xcassets */; };
 		4773C3E921173DE3006DA08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C3E721173DE3006DA08C /* LaunchScreen.storyboard */; };
 		4773C3EC21173DE3006DA08C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C3EB21173DE3006DA08C /* main.m */; };
+		4773C3F821182EE8006DA08C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C3F721182EE8006DA08C /* AppDelegate.m */; };
+		4773C3FB21182EE8006DA08C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C3FA21182EE8006DA08C /* ViewController.m */; };
+		4773C3FE21182EE8006DA08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C3FC21182EE8006DA08C /* Main.storyboard */; };
+		4773C40021182EEE006DA08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4773C3FF21182EEE006DA08C /* Assets.xcassets */; };
+		4773C40321182EEE006DA08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C40121182EEE006DA08C /* LaunchScreen.storyboard */; };
+		4773C40621182EEE006DA08C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C40521182EEE006DA08C /* main.m */; };
+		4773C41221182F45006DA08C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C41121182F45006DA08C /* AppDelegate.m */; };
+		4773C41521182F45006DA08C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C41421182F45006DA08C /* ViewController.m */; };
+		4773C41821182F45006DA08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C41621182F45006DA08C /* Main.storyboard */; };
+		4773C41A21182F46006DA08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4773C41921182F46006DA08C /* Assets.xcassets */; };
+		4773C41D21182F46006DA08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C41B21182F46006DA08C /* LaunchScreen.storyboard */; };
+		4773C42021182F46006DA08C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C41F21182F46006DA08C /* main.m */; };
+		4773C42C211837B5006DA08C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C42B211837B5006DA08C /* AppDelegate.m */; };
+		4773C42F211837B5006DA08C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C42E211837B5006DA08C /* ViewController.m */; };
+		4773C432211837B5006DA08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C430211837B5006DA08C /* Main.storyboard */; };
+		4773C434211837B6006DA08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4773C433211837B6006DA08C /* Assets.xcassets */; };
+		4773C437211837B6006DA08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C435211837B6006DA08C /* LaunchScreen.storyboard */; };
+		4773C43A211837B6006DA08C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C439211837B6006DA08C /* main.m */; };
+		4773C44621183BE3006DA08C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C44521183BE3006DA08C /* AppDelegate.m */; };
+		4773C44921183BE3006DA08C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C44821183BE3006DA08C /* ViewController.m */; };
+		4773C44C21183BE3006DA08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C44A21183BE3006DA08C /* Main.storyboard */; };
+		4773C44E21183BE3006DA08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4773C44D21183BE3006DA08C /* Assets.xcassets */; };
+		4773C45121183BE3006DA08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C44F21183BE3006DA08C /* LaunchScreen.storyboard */; };
+		4773C45421183BE3006DA08C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C45321183BE3006DA08C /* main.m */; };
 		47DAF9932115CF1A0047E910 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DAF9922115CF1A0047E910 /* AppDelegate.m */; };
 		47DAF9992115CF1A0047E910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DAF9972115CF1A0047E910 /* Main.storyboard */; };
 		47DAF99B2115CF1A0047E910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47DAF99A2115CF1A0047E910 /* Assets.xcassets */; };
@@ -59,6 +83,46 @@
 		4773C3E821173DE3006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4773C3EA21173DE3006DA08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4773C3EB21173DE3006DA08C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4773C3F421182EE8006DA08C /* _UIProgressView 进度条.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "_UIProgressView 进度条.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4773C3F621182EE8006DA08C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4773C3F721182EE8006DA08C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4773C3F921182EE8006DA08C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4773C3FA21182EE8006DA08C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4773C3FD21182EE8006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4773C3FF21182EEE006DA08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4773C40221182EEE006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4773C40421182EEE006DA08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4773C40521182EEE006DA08C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4773C40E21182F45006DA08C /* _UISlider 滑动条.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "_UISlider 滑动条.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4773C41021182F45006DA08C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4773C41121182F45006DA08C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4773C41321182F45006DA08C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4773C41421182F45006DA08C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4773C41721182F45006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4773C41921182F46006DA08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4773C41C21182F46006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4773C41E21182F46006DA08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4773C41F21182F46006DA08C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4773C428211837B5006DA08C /* _UIStepper 步进器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "_UIStepper 步进器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4773C42A211837B5006DA08C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4773C42B211837B5006DA08C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4773C42D211837B5006DA08C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4773C42E211837B5006DA08C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4773C431211837B5006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4773C433211837B6006DA08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4773C436211837B6006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4773C438211837B6006DA08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4773C439211837B6006DA08C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4773C44221183BE3006DA08C /* _UISegmentedControl 分栏控制器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "_UISegmentedControl 分栏控制器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4773C44421183BE3006DA08C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4773C44521183BE3006DA08C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4773C44721183BE3006DA08C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4773C44821183BE3006DA08C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4773C44B21183BE3006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4773C44D21183BE3006DA08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4773C45021183BE3006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4773C45221183BE3006DA08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4773C45321183BE3006DA08C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		47DAF98E2115CF190047E910 /* iOS_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47DAF9912115CF1A0047E910 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		47DAF9922115CF1A0047E910 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -123,6 +187,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4773C3F121182EE8006DA08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C40B21182F45006DA08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C425211837B5006DA08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C43F21183BE3006DA08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		47DAF98B2115CF190047E910 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -177,6 +269,70 @@
 			path = "_UISwitch 开关控件";
 			sourceTree = "<group>";
 		};
+		4773C3F521182EE8006DA08C /* _UIProgressView 进度条 */ = {
+			isa = PBXGroup;
+			children = (
+				4773C3F621182EE8006DA08C /* AppDelegate.h */,
+				4773C3F721182EE8006DA08C /* AppDelegate.m */,
+				4773C3F921182EE8006DA08C /* ViewController.h */,
+				4773C3FA21182EE8006DA08C /* ViewController.m */,
+				4773C3FC21182EE8006DA08C /* Main.storyboard */,
+				4773C3FF21182EEE006DA08C /* Assets.xcassets */,
+				4773C40121182EEE006DA08C /* LaunchScreen.storyboard */,
+				4773C40421182EEE006DA08C /* Info.plist */,
+				4773C40521182EEE006DA08C /* main.m */,
+			);
+			path = "_UIProgressView 进度条";
+			sourceTree = "<group>";
+		};
+		4773C40F21182F45006DA08C /* _UISlider 滑动条 */ = {
+			isa = PBXGroup;
+			children = (
+				4773C41021182F45006DA08C /* AppDelegate.h */,
+				4773C41121182F45006DA08C /* AppDelegate.m */,
+				4773C41321182F45006DA08C /* ViewController.h */,
+				4773C41421182F45006DA08C /* ViewController.m */,
+				4773C41621182F45006DA08C /* Main.storyboard */,
+				4773C41921182F46006DA08C /* Assets.xcassets */,
+				4773C41B21182F46006DA08C /* LaunchScreen.storyboard */,
+				4773C41E21182F46006DA08C /* Info.plist */,
+				4773C41F21182F46006DA08C /* main.m */,
+			);
+			path = "_UISlider 滑动条";
+			sourceTree = "<group>";
+		};
+		4773C429211837B5006DA08C /* _UIStepper 步进器 */ = {
+			isa = PBXGroup;
+			children = (
+				4773C42A211837B5006DA08C /* AppDelegate.h */,
+				4773C42B211837B5006DA08C /* AppDelegate.m */,
+				4773C42D211837B5006DA08C /* ViewController.h */,
+				4773C42E211837B5006DA08C /* ViewController.m */,
+				4773C430211837B5006DA08C /* Main.storyboard */,
+				4773C433211837B6006DA08C /* Assets.xcassets */,
+				4773C435211837B6006DA08C /* LaunchScreen.storyboard */,
+				4773C438211837B6006DA08C /* Info.plist */,
+				4773C439211837B6006DA08C /* main.m */,
+			);
+			path = "_UIStepper 步进器";
+			sourceTree = "<group>";
+		};
+		4773C44321183BE3006DA08C /* _UISegmentedControl 分栏控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				4773C44421183BE3006DA08C /* AppDelegate.h */,
+				4773C44521183BE3006DA08C /* AppDelegate.m */,
+				4773C44721183BE3006DA08C /* ViewController.h */,
+				4773C44821183BE3006DA08C /* ViewController.m */,
+				4773C44A21183BE3006DA08C /* Main.storyboard */,
+				4773C44D21183BE3006DA08C /* Assets.xcassets */,
+				4773C44F21183BE3006DA08C /* LaunchScreen.storyboard */,
+				4773C45221183BE3006DA08C /* Info.plist */,
+				4773C45321183BE3006DA08C /* main.m */,
+			);
+			path = "_UISegmentedControl 分栏控制器";
+			sourceTree = "<group>";
+		};
 		47DAF9852115CF190047E910 = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +341,10 @@
 				47DAF9AE2115D3DC0047E910 /* _UILable */,
 				47DAFA182115DD6E0047E910 /* _UIButton */,
 				4773C3DB21173DE0006DA08C /* _UISwitch 开关控件 */,
+				4773C3F521182EE8006DA08C /* _UIProgressView 进度条 */,
+				4773C40F21182F45006DA08C /* _UISlider 滑动条 */,
+				4773C429211837B5006DA08C /* _UIStepper 步进器 */,
+				4773C44321183BE3006DA08C /* _UISegmentedControl 分栏控制器 */,
 				47DAFA892116F2BA0047E910 /* UIViewController */,
 				47DAFAA8211703970047E910 /* NSTimer 定时器 */,
 				47DAF98F2115CF190047E910 /* Products */,
@@ -200,6 +360,10 @@
 				47DAFA882116F2BA0047E910 /* UIViewController.app */,
 				47DAFAA7211703970047E910 /* NSTimer 定时器.app */,
 				4773C3DA21173DE0006DA08C /* _UISwitch 开关控件.app */,
+				4773C3F421182EE8006DA08C /* _UIProgressView 进度条.app */,
+				4773C40E21182F45006DA08C /* _UISlider 滑动条.app */,
+				4773C428211837B5006DA08C /* _UIStepper 步进器.app */,
+				4773C44221183BE3006DA08C /* _UISegmentedControl 分栏控制器.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -307,6 +471,74 @@
 			productReference = 4773C3DA21173DE0006DA08C /* _UISwitch 开关控件.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4773C3F321182EE8006DA08C /* _UIProgressView 进度条 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4773C40721182EEE006DA08C /* Build configuration list for PBXNativeTarget "_UIProgressView 进度条" */;
+			buildPhases = (
+				4773C3F021182EE8006DA08C /* Sources */,
+				4773C3F121182EE8006DA08C /* Frameworks */,
+				4773C3F221182EE8006DA08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "_UIProgressView 进度条";
+			productName = "_UIProgressView 进度条";
+			productReference = 4773C3F421182EE8006DA08C /* _UIProgressView 进度条.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4773C40D21182F45006DA08C /* _UISlider 滑动条 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4773C42121182F46006DA08C /* Build configuration list for PBXNativeTarget "_UISlider 滑动条" */;
+			buildPhases = (
+				4773C40A21182F45006DA08C /* Sources */,
+				4773C40B21182F45006DA08C /* Frameworks */,
+				4773C40C21182F45006DA08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "_UISlider 滑动条";
+			productName = "_UISlider 滑动条";
+			productReference = 4773C40E21182F45006DA08C /* _UISlider 滑动条.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4773C427211837B5006DA08C /* _UIStepper 步进器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4773C43B211837B6006DA08C /* Build configuration list for PBXNativeTarget "_UIStepper 步进器" */;
+			buildPhases = (
+				4773C424211837B5006DA08C /* Sources */,
+				4773C425211837B5006DA08C /* Frameworks */,
+				4773C426211837B5006DA08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "_UIStepper 步进器";
+			productName = "_UIStepper 步进器";
+			productReference = 4773C428211837B5006DA08C /* _UIStepper 步进器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4773C44121183BE3006DA08C /* _UISegmentedControl 分栏控制器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4773C45521183BE3006DA08C /* Build configuration list for PBXNativeTarget "_UISegmentedControl 分栏控制器" */;
+			buildPhases = (
+				4773C43E21183BE3006DA08C /* Sources */,
+				4773C43F21183BE3006DA08C /* Frameworks */,
+				4773C44021183BE3006DA08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "_UISegmentedControl 分栏控制器";
+			productName = "_UISegmentedControl 分栏控制器";
+			productReference = 4773C44221183BE3006DA08C /* _UISegmentedControl 分栏控制器.app */;
+			productType = "com.apple.product-type.application";
+		};
 		47DAF98D2115CF190047E910 /* iOS_UI */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47DAF9A42115CF1A0047E910 /* Build configuration list for PBXNativeTarget "iOS_UI" */;
@@ -404,6 +636,18 @@
 					4773C3D921173DE0006DA08C = {
 						CreatedOnToolsVersion = 9.3;
 					};
+					4773C3F321182EE8006DA08C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					4773C40D21182F45006DA08C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					4773C427211837B5006DA08C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					4773C44121183BE3006DA08C = {
+						CreatedOnToolsVersion = 9.3;
+					};
 					47DAF98D2115CF190047E910 = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -440,6 +684,10 @@
 				47DAFA872116F2BA0047E910 /* UIViewController */,
 				47DAFAA6211703970047E910 /* NSTimer 定时器 */,
 				4773C3D921173DE0006DA08C /* _UISwitch 开关控件 */,
+				4773C3F321182EE8006DA08C /* _UIProgressView 进度条 */,
+				4773C40D21182F45006DA08C /* _UISlider 滑动条 */,
+				4773C427211837B5006DA08C /* _UIStepper 步进器 */,
+				4773C44121183BE3006DA08C /* _UISegmentedControl 分栏控制器 */,
 			);
 		};
 /* End PBXProject section */
@@ -452,6 +700,46 @@
 				4773C3E921173DE3006DA08C /* LaunchScreen.storyboard in Resources */,
 				4773C3E621173DE3006DA08C /* Assets.xcassets in Resources */,
 				4773C3E421173DE1006DA08C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C3F221182EE8006DA08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C40321182EEE006DA08C /* LaunchScreen.storyboard in Resources */,
+				4773C40021182EEE006DA08C /* Assets.xcassets in Resources */,
+				4773C3FE21182EE8006DA08C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C40C21182F45006DA08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C41D21182F46006DA08C /* LaunchScreen.storyboard in Resources */,
+				4773C41A21182F46006DA08C /* Assets.xcassets in Resources */,
+				4773C41821182F45006DA08C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C426211837B5006DA08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C437211837B6006DA08C /* LaunchScreen.storyboard in Resources */,
+				4773C434211837B6006DA08C /* Assets.xcassets in Resources */,
+				4773C432211837B5006DA08C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C44021183BE3006DA08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C45121183BE3006DA08C /* LaunchScreen.storyboard in Resources */,
+				4773C44E21183BE3006DA08C /* Assets.xcassets in Resources */,
+				4773C44C21183BE3006DA08C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +805,46 @@
 				4773C3E121173DE0006DA08C /* ViewController.m in Sources */,
 				4773C3EC21173DE3006DA08C /* main.m in Sources */,
 				4773C3DE21173DE0006DA08C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C3F021182EE8006DA08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C3FB21182EE8006DA08C /* ViewController.m in Sources */,
+				4773C40621182EEE006DA08C /* main.m in Sources */,
+				4773C3F821182EE8006DA08C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C40A21182F45006DA08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C41521182F45006DA08C /* ViewController.m in Sources */,
+				4773C42021182F46006DA08C /* main.m in Sources */,
+				4773C41221182F45006DA08C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C424211837B5006DA08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C42F211837B5006DA08C /* ViewController.m in Sources */,
+				4773C43A211837B6006DA08C /* main.m in Sources */,
+				4773C42C211837B5006DA08C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C43E21183BE3006DA08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C44921183BE3006DA08C /* ViewController.m in Sources */,
+				4773C45421183BE3006DA08C /* main.m in Sources */,
+				4773C44621183BE3006DA08C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +914,70 @@
 			isa = PBXVariantGroup;
 			children = (
 				4773C3E821173DE3006DA08C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4773C3FC21182EE8006DA08C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C3FD21182EE8006DA08C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4773C40121182EEE006DA08C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C40221182EEE006DA08C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4773C41621182F45006DA08C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C41721182F45006DA08C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4773C41B21182F46006DA08C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C41C21182F46006DA08C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4773C430211837B5006DA08C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C431211837B5006DA08C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4773C435211837B6006DA08C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C436211837B6006DA08C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4773C44A21183BE3006DA08C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C44B21183BE3006DA08C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4773C44F21183BE3006DA08C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C45021183BE3006DA08C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -702,6 +1094,142 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UISwitch-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4773C40821182EEE006DA08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UIProgressView 进度条/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UIProgressView----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4773C40921182EEE006DA08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UIProgressView 进度条/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UIProgressView----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4773C42221182F46006DA08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UISlider 滑动条/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UISlider----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4773C42321182F46006DA08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UISlider 滑动条/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UISlider----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4773C43C211837B6006DA08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UIStepper 步进器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UIStepper----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4773C43D211837B6006DA08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UIStepper 步进器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UIStepper----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4773C45621183BE3006DA08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UISegmentedControl 分栏控制器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UISegmentedControl------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4773C45721183BE3006DA08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UISegmentedControl 分栏控制器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UISegmentedControl------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -995,6 +1523,42 @@
 			buildConfigurations = (
 				4773C3ED21173DE3006DA08C /* Debug */,
 				4773C3EE21173DE3006DA08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4773C40721182EEE006DA08C /* Build configuration list for PBXNativeTarget "_UIProgressView 进度条" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4773C40821182EEE006DA08C /* Debug */,
+				4773C40921182EEE006DA08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4773C42121182F46006DA08C /* Build configuration list for PBXNativeTarget "_UISlider 滑动条" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4773C42221182F46006DA08C /* Debug */,
+				4773C42321182F46006DA08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4773C43B211837B6006DA08C /* Build configuration list for PBXNativeTarget "_UIStepper 步进器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4773C43C211837B6006DA08C /* Debug */,
+				4773C43D211837B6006DA08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4773C45521183BE3006DA08C /* Build configuration list for PBXNativeTarget "_UISegmentedControl 分栏控制器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4773C45621183BE3006DA08C /* Debug */,
+				4773C45721183BE3006DA08C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

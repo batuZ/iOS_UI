@@ -120,4 +120,34 @@ lable.shadowColor        = [UIColor blackColor];
 #### UIButton
 普通按钮，图像按钮，设置事件
 
+#### UISwitch 开关控件
+#### UIProgressView 进度条
+        被动对象，只能相应事件，不能主动触发事件
+#### UISlider 滑动条
+        主动对象，可以出发事件
+        
+#### UIStepper 步进器
+    按指定步长设置值，受最大最小值限制
+
+####  UISegmentedControl 分栏控件
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
