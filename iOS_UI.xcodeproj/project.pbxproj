@@ -37,6 +37,24 @@
 		4773C44E21183BE3006DA08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4773C44D21183BE3006DA08C /* Assets.xcassets */; };
 		4773C45121183BE3006DA08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C44F21183BE3006DA08C /* LaunchScreen.storyboard */; };
 		4773C45421183BE3006DA08C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C45321183BE3006DA08C /* main.m */; };
+		4773C460211846BF006DA08C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C45F211846BF006DA08C /* AppDelegate.m */; };
+		4773C463211846BF006DA08C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C462211846BF006DA08C /* ViewController.m */; };
+		4773C466211846BF006DA08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C464211846BF006DA08C /* Main.storyboard */; };
+		4773C468211846C0006DA08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4773C467211846C0006DA08C /* Assets.xcassets */; };
+		4773C46B211846C0006DA08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C469211846C0006DA08C /* LaunchScreen.storyboard */; };
+		4773C46E211846C0006DA08C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C46D211846C0006DA08C /* main.m */; };
+		4773C47A2118564E006DA08C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C4792118564E006DA08C /* AppDelegate.m */; };
+		4773C47D2118564E006DA08C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C47C2118564E006DA08C /* ViewController.m */; };
+		4773C4802118564E006DA08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C47E2118564E006DA08C /* Main.storyboard */; };
+		4773C48221185650006DA08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4773C48121185650006DA08C /* Assets.xcassets */; };
+		4773C48521185650006DA08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C48321185650006DA08C /* LaunchScreen.storyboard */; };
+		4773C48821185650006DA08C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C48721185650006DA08C /* main.m */; };
+		4773C4942118592C006DA08C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C4932118592C006DA08C /* AppDelegate.m */; };
+		4773C4972118592C006DA08C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C4962118592C006DA08C /* ViewController.m */; };
+		4773C49A2118592C006DA08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C4982118592C006DA08C /* Main.storyboard */; };
+		4773C49C2118592D006DA08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4773C49B2118592D006DA08C /* Assets.xcassets */; };
+		4773C49F2118592D006DA08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C49D2118592D006DA08C /* LaunchScreen.storyboard */; };
+		4773C4A22118592D006DA08C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C4A12118592D006DA08C /* main.m */; };
 		47DAF9932115CF1A0047E910 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DAF9922115CF1A0047E910 /* AppDelegate.m */; };
 		47DAF9992115CF1A0047E910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DAF9972115CF1A0047E910 /* Main.storyboard */; };
 		47DAF99B2115CF1A0047E910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47DAF99A2115CF1A0047E910 /* Assets.xcassets */; };
@@ -123,6 +141,36 @@
 		4773C45021183BE3006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4773C45221183BE3006DA08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4773C45321183BE3006DA08C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4773C45C211846BF006DA08C /* _UIAlertView 提示对话框.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "_UIAlertView 提示对话框.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4773C45E211846BF006DA08C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4773C45F211846BF006DA08C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4773C461211846BF006DA08C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4773C462211846BF006DA08C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4773C465211846BF006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4773C467211846C0006DA08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4773C46A211846C0006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4773C46C211846C0006DA08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4773C46D211846C0006DA08C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4773C4762118564E006DA08C /* _UIActivityIndicatorView 等待指示器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "_UIActivityIndicatorView 等待指示器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4773C4782118564E006DA08C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4773C4792118564E006DA08C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4773C47B2118564E006DA08C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4773C47C2118564E006DA08C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4773C47F2118564E006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4773C48121185650006DA08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4773C48421185650006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4773C48621185650006DA08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4773C48721185650006DA08C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4773C4902118592C006DA08C /* _UITextField 文本输出框.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "_UITextField 文本输出框.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4773C4922118592C006DA08C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4773C4932118592C006DA08C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4773C4952118592C006DA08C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4773C4962118592C006DA08C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4773C4992118592C006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4773C49B2118592D006DA08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4773C49E2118592D006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4773C4A02118592D006DA08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4773C4A12118592D006DA08C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		47DAF98E2115CF190047E910 /* iOS_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47DAF9912115CF1A0047E910 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		47DAF9922115CF1A0047E910 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -209,6 +257,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4773C43F21183BE3006DA08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C459211846BF006DA08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C4732118564E006DA08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C48D2118592C006DA08C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -333,6 +402,54 @@
 			path = "_UISegmentedControl 分栏控制器";
 			sourceTree = "<group>";
 		};
+		4773C45D211846BF006DA08C /* _UIAlertView 提示对话框 */ = {
+			isa = PBXGroup;
+			children = (
+				4773C45E211846BF006DA08C /* AppDelegate.h */,
+				4773C45F211846BF006DA08C /* AppDelegate.m */,
+				4773C461211846BF006DA08C /* ViewController.h */,
+				4773C462211846BF006DA08C /* ViewController.m */,
+				4773C464211846BF006DA08C /* Main.storyboard */,
+				4773C467211846C0006DA08C /* Assets.xcassets */,
+				4773C469211846C0006DA08C /* LaunchScreen.storyboard */,
+				4773C46C211846C0006DA08C /* Info.plist */,
+				4773C46D211846C0006DA08C /* main.m */,
+			);
+			path = "_UIAlertView 提示对话框";
+			sourceTree = "<group>";
+		};
+		4773C4772118564E006DA08C /* _UIActivityIndicatorView 等待指示器 */ = {
+			isa = PBXGroup;
+			children = (
+				4773C4782118564E006DA08C /* AppDelegate.h */,
+				4773C4792118564E006DA08C /* AppDelegate.m */,
+				4773C47B2118564E006DA08C /* ViewController.h */,
+				4773C47C2118564E006DA08C /* ViewController.m */,
+				4773C47E2118564E006DA08C /* Main.storyboard */,
+				4773C48121185650006DA08C /* Assets.xcassets */,
+				4773C48321185650006DA08C /* LaunchScreen.storyboard */,
+				4773C48621185650006DA08C /* Info.plist */,
+				4773C48721185650006DA08C /* main.m */,
+			);
+			path = "_UIActivityIndicatorView 等待指示器";
+			sourceTree = "<group>";
+		};
+		4773C4912118592C006DA08C /* _UITextField 文本输出框 */ = {
+			isa = PBXGroup;
+			children = (
+				4773C4922118592C006DA08C /* AppDelegate.h */,
+				4773C4932118592C006DA08C /* AppDelegate.m */,
+				4773C4952118592C006DA08C /* ViewController.h */,
+				4773C4962118592C006DA08C /* ViewController.m */,
+				4773C4982118592C006DA08C /* Main.storyboard */,
+				4773C49B2118592D006DA08C /* Assets.xcassets */,
+				4773C49D2118592D006DA08C /* LaunchScreen.storyboard */,
+				4773C4A02118592D006DA08C /* Info.plist */,
+				4773C4A12118592D006DA08C /* main.m */,
+			);
+			path = "_UITextField 文本输出框";
+			sourceTree = "<group>";
+		};
 		47DAF9852115CF190047E910 = {
 			isa = PBXGroup;
 			children = (
@@ -345,6 +462,9 @@
 				4773C40F21182F45006DA08C /* _UISlider 滑动条 */,
 				4773C429211837B5006DA08C /* _UIStepper 步进器 */,
 				4773C44321183BE3006DA08C /* _UISegmentedControl 分栏控制器 */,
+				4773C45D211846BF006DA08C /* _UIAlertView 提示对话框 */,
+				4773C4772118564E006DA08C /* _UIActivityIndicatorView 等待指示器 */,
+				4773C4912118592C006DA08C /* _UITextField 文本输出框 */,
 				47DAFA892116F2BA0047E910 /* UIViewController */,
 				47DAFAA8211703970047E910 /* NSTimer 定时器 */,
 				47DAF98F2115CF190047E910 /* Products */,
@@ -364,6 +484,9 @@
 				4773C40E21182F45006DA08C /* _UISlider 滑动条.app */,
 				4773C428211837B5006DA08C /* _UIStepper 步进器.app */,
 				4773C44221183BE3006DA08C /* _UISegmentedControl 分栏控制器.app */,
+				4773C45C211846BF006DA08C /* _UIAlertView 提示对话框.app */,
+				4773C4762118564E006DA08C /* _UIActivityIndicatorView 等待指示器.app */,
+				4773C4902118592C006DA08C /* _UITextField 文本输出框.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -539,6 +662,57 @@
 			productReference = 4773C44221183BE3006DA08C /* _UISegmentedControl 分栏控制器.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4773C45B211846BF006DA08C /* _UIAlertView 提示对话框 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4773C46F211846C0006DA08C /* Build configuration list for PBXNativeTarget "_UIAlertView 提示对话框" */;
+			buildPhases = (
+				4773C458211846BF006DA08C /* Sources */,
+				4773C459211846BF006DA08C /* Frameworks */,
+				4773C45A211846BF006DA08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "_UIAlertView 提示对话框";
+			productName = "_UIAlertView 提示对话框";
+			productReference = 4773C45C211846BF006DA08C /* _UIAlertView 提示对话框.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4773C4752118564E006DA08C /* _UIActivityIndicatorView 等待指示器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4773C48921185650006DA08C /* Build configuration list for PBXNativeTarget "_UIActivityIndicatorView 等待指示器" */;
+			buildPhases = (
+				4773C4722118564E006DA08C /* Sources */,
+				4773C4732118564E006DA08C /* Frameworks */,
+				4773C4742118564E006DA08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "_UIActivityIndicatorView 等待指示器";
+			productName = "_UIActivityIndicatorView 等待指示器";
+			productReference = 4773C4762118564E006DA08C /* _UIActivityIndicatorView 等待指示器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4773C48F2118592C006DA08C /* _UITextField 文本输出框 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4773C4A32118592D006DA08C /* Build configuration list for PBXNativeTarget "_UITextField 文本输出框" */;
+			buildPhases = (
+				4773C48C2118592C006DA08C /* Sources */,
+				4773C48D2118592C006DA08C /* Frameworks */,
+				4773C48E2118592C006DA08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "_UITextField 文本输出框";
+			productName = "_UITextField 文本输出框";
+			productReference = 4773C4902118592C006DA08C /* _UITextField 文本输出框.app */;
+			productType = "com.apple.product-type.application";
+		};
 		47DAF98D2115CF190047E910 /* iOS_UI */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47DAF9A42115CF1A0047E910 /* Build configuration list for PBXNativeTarget "iOS_UI" */;
@@ -648,6 +822,15 @@
 					4773C44121183BE3006DA08C = {
 						CreatedOnToolsVersion = 9.3;
 					};
+					4773C45B211846BF006DA08C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					4773C4752118564E006DA08C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					4773C48F2118592C006DA08C = {
+						CreatedOnToolsVersion = 9.3;
+					};
 					47DAF98D2115CF190047E910 = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -688,6 +871,9 @@
 				4773C40D21182F45006DA08C /* _UISlider 滑动条 */,
 				4773C427211837B5006DA08C /* _UIStepper 步进器 */,
 				4773C44121183BE3006DA08C /* _UISegmentedControl 分栏控制器 */,
+				4773C45B211846BF006DA08C /* _UIAlertView 提示对话框 */,
+				4773C4752118564E006DA08C /* _UIActivityIndicatorView 等待指示器 */,
+				4773C48F2118592C006DA08C /* _UITextField 文本输出框 */,
 			);
 		};
 /* End PBXProject section */
@@ -740,6 +926,36 @@
 				4773C45121183BE3006DA08C /* LaunchScreen.storyboard in Resources */,
 				4773C44E21183BE3006DA08C /* Assets.xcassets in Resources */,
 				4773C44C21183BE3006DA08C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C45A211846BF006DA08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C46B211846C0006DA08C /* LaunchScreen.storyboard in Resources */,
+				4773C468211846C0006DA08C /* Assets.xcassets in Resources */,
+				4773C466211846BF006DA08C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C4742118564E006DA08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C48521185650006DA08C /* LaunchScreen.storyboard in Resources */,
+				4773C48221185650006DA08C /* Assets.xcassets in Resources */,
+				4773C4802118564E006DA08C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C48E2118592C006DA08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C49F2118592D006DA08C /* LaunchScreen.storyboard in Resources */,
+				4773C49C2118592D006DA08C /* Assets.xcassets in Resources */,
+				4773C49A2118592C006DA08C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -845,6 +1061,36 @@
 				4773C44921183BE3006DA08C /* ViewController.m in Sources */,
 				4773C45421183BE3006DA08C /* main.m in Sources */,
 				4773C44621183BE3006DA08C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C458211846BF006DA08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C463211846BF006DA08C /* ViewController.m in Sources */,
+				4773C46E211846C0006DA08C /* main.m in Sources */,
+				4773C460211846BF006DA08C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C4722118564E006DA08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C47D2118564E006DA08C /* ViewController.m in Sources */,
+				4773C48821185650006DA08C /* main.m in Sources */,
+				4773C47A2118564E006DA08C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C48C2118592C006DA08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C4972118592C006DA08C /* ViewController.m in Sources */,
+				4773C4A22118592D006DA08C /* main.m in Sources */,
+				4773C4942118592C006DA08C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -978,6 +1224,54 @@
 			isa = PBXVariantGroup;
 			children = (
 				4773C45021183BE3006DA08C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4773C464211846BF006DA08C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C465211846BF006DA08C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4773C469211846C0006DA08C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C46A211846C0006DA08C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4773C47E2118564E006DA08C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C47F2118564E006DA08C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4773C48321185650006DA08C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C48421185650006DA08C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4773C4982118592C006DA08C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C4992118592C006DA08C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4773C49D2118592D006DA08C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C49E2118592D006DA08C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1235,6 +1529,108 @@
 			};
 			name = Release;
 		};
+		4773C470211846C0006DA08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UIAlertView 提示对话框/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UIAlertView------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4773C471211846C0006DA08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UIAlertView 提示对话框/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UIAlertView------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4773C48A21185650006DA08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UIActivityIndicatorView 等待指示器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UIActivityIndicatorView------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4773C48B21185650006DA08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UIActivityIndicatorView 等待指示器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UIActivityIndicatorView------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4773C4A42118592D006DA08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UITextField 文本输出框/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UITextField------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4773C4A52118592D006DA08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UITextField 文本输出框/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UITextField------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		47DAF9A22115CF1A0047E910 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1386,6 +1782,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L93RNVTT25;
 				INFOPLIST_FILE = "_UILable 标签/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1403,6 +1800,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L93RNVTT25;
 				INFOPLIST_FILE = "_UILable 标签/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1559,6 +1957,33 @@
 			buildConfigurations = (
 				4773C45621183BE3006DA08C /* Debug */,
 				4773C45721183BE3006DA08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4773C46F211846C0006DA08C /* Build configuration list for PBXNativeTarget "_UIAlertView 提示对话框" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4773C470211846C0006DA08C /* Debug */,
+				4773C471211846C0006DA08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4773C48921185650006DA08C /* Build configuration list for PBXNativeTarget "_UIActivityIndicatorView 等待指示器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4773C48A21185650006DA08C /* Debug */,
+				4773C48B21185650006DA08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4773C4A32118592D006DA08C /* Build configuration list for PBXNativeTarget "_UITextField 文本输出框" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4773C4A42118592D006DA08C /* Debug */,
+				4773C4A52118592D006DA08C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

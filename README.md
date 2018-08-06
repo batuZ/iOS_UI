@@ -130,7 +130,9 @@ lable.shadowColor        = [UIColor blackColor];
     按指定步长设置值，受最大最小值限制
 
 ####  UISegmentedControl 分栏控件
-
+#### UIAlertController 提示对话框
+#### UIActivityIndicatorView 等待指示器
+#### UITextField 单行文本输入框
 
 
 
