@@ -9,6 +9,21 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>UIGesture 平移-滑动-长按手势.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+		<key>UIGesture 旋转缩放手势.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
+		<key>UIGesture 点击手势.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 		<key>UITouch 点击事件.xcscheme</key>
 		<dict>
 			<key>orderHint</key>

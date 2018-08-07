@@ -135,7 +135,7 @@ lable.shadowColor        = [UIColor blackColor];
 #### UITextField 单行文本输入框
 #### UIScrollView 滚动视图（图像）375*667
 #### UITouch 全局的屏幕点击事件类 
-
+#### UIGesture 点击手势
 
 
 

@@ -69,6 +69,24 @@
 		4773C4D421198977006DA08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4773C4D321198977006DA08C /* Assets.xcassets */; };
 		4773C4D721198977006DA08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C4D521198977006DA08C /* LaunchScreen.storyboard */; };
 		4773C4DA21198977006DA08C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C4D921198977006DA08C /* main.m */; };
+		4773C4E621199226006DA08C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C4E521199226006DA08C /* AppDelegate.m */; };
+		4773C4E921199226006DA08C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C4E821199226006DA08C /* ViewController.m */; };
+		4773C4EC21199226006DA08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C4EA21199226006DA08C /* Main.storyboard */; };
+		4773C4EE21199228006DA08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4773C4ED21199228006DA08C /* Assets.xcassets */; };
+		4773C4F121199228006DA08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C4EF21199228006DA08C /* LaunchScreen.storyboard */; };
+		4773C4F421199228006DA08C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C4F321199228006DA08C /* main.m */; };
+		4773C50021199B4D006DA08C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C4FF21199B4D006DA08C /* AppDelegate.m */; };
+		4773C50321199B4D006DA08C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C50221199B4D006DA08C /* ViewController.m */; };
+		4773C50621199B4D006DA08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C50421199B4D006DA08C /* Main.storyboard */; };
+		4773C50821199B4F006DA08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4773C50721199B4F006DA08C /* Assets.xcassets */; };
+		4773C50B21199B4F006DA08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C50921199B4F006DA08C /* LaunchScreen.storyboard */; };
+		4773C50E21199B4F006DA08C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C50D21199B4F006DA08C /* main.m */; };
+		4773C51A2119A315006DA08C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C5192119A315006DA08C /* AppDelegate.m */; };
+		4773C51D2119A315006DA08C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C51C2119A315006DA08C /* ViewController.m */; };
+		4773C5202119A315006DA08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C51E2119A315006DA08C /* Main.storyboard */; };
+		4773C5222119A318006DA08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4773C5212119A318006DA08C /* Assets.xcassets */; };
+		4773C5252119A318006DA08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C5232119A318006DA08C /* LaunchScreen.storyboard */; };
+		4773C5282119A318006DA08C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C5272119A318006DA08C /* main.m */; };
 		47DAF9932115CF1A0047E910 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DAF9922115CF1A0047E910 /* AppDelegate.m */; };
 		47DAF9992115CF1A0047E910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DAF9972115CF1A0047E910 /* Main.storyboard */; };
 		47DAF99B2115CF1A0047E910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47DAF99A2115CF1A0047E910 /* Assets.xcassets */; };
@@ -207,6 +225,36 @@
 		4773C4D621198977006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4773C4D821198977006DA08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4773C4D921198977006DA08C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4773C4E221199226006DA08C /* UIGesture 点击手势.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIGesture 点击手势.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4773C4E421199226006DA08C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4773C4E521199226006DA08C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4773C4E721199226006DA08C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4773C4E821199226006DA08C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4773C4EB21199226006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4773C4ED21199228006DA08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4773C4F021199228006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4773C4F221199228006DA08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4773C4F321199228006DA08C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4773C4FC21199B4D006DA08C /* UIGesture 旋转缩放手势.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIGesture 旋转缩放手势.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4773C4FE21199B4D006DA08C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4773C4FF21199B4D006DA08C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4773C50121199B4D006DA08C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4773C50221199B4D006DA08C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4773C50521199B4D006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4773C50721199B4F006DA08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4773C50A21199B4F006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4773C50C21199B4F006DA08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4773C50D21199B4F006DA08C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4773C5162119A315006DA08C /* UIGesture 平移-滑动-长按手势.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIGesture 平移-滑动-长按手势.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4773C5182119A315006DA08C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4773C5192119A315006DA08C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4773C51B2119A315006DA08C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4773C51C2119A315006DA08C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4773C51F2119A315006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4773C5212119A318006DA08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4773C5242119A318006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4773C5262119A318006DA08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4773C5272119A318006DA08C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		47DAF98E2115CF190047E910 /* iOS_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47DAF9912115CF1A0047E910 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		47DAF9922115CF1A0047E910 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -328,6 +376,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4773C4C521198975006DA08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C4DF21199226006DA08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C4F921199B4D006DA08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C5132119A315006DA08C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -532,6 +601,54 @@
 			path = "UITouch 点击事件";
 			sourceTree = "<group>";
 		};
+		4773C4E321199226006DA08C /* UIGesture 点击手势 */ = {
+			isa = PBXGroup;
+			children = (
+				4773C4E421199226006DA08C /* AppDelegate.h */,
+				4773C4E521199226006DA08C /* AppDelegate.m */,
+				4773C4E721199226006DA08C /* ViewController.h */,
+				4773C4E821199226006DA08C /* ViewController.m */,
+				4773C4EA21199226006DA08C /* Main.storyboard */,
+				4773C4ED21199228006DA08C /* Assets.xcassets */,
+				4773C4EF21199228006DA08C /* LaunchScreen.storyboard */,
+				4773C4F221199228006DA08C /* Info.plist */,
+				4773C4F321199228006DA08C /* main.m */,
+			);
+			path = "UIGesture 点击手势";
+			sourceTree = "<group>";
+		};
+		4773C4FD21199B4D006DA08C /* UIGesture 旋转缩放手势 */ = {
+			isa = PBXGroup;
+			children = (
+				4773C4FE21199B4D006DA08C /* AppDelegate.h */,
+				4773C4FF21199B4D006DA08C /* AppDelegate.m */,
+				4773C50121199B4D006DA08C /* ViewController.h */,
+				4773C50221199B4D006DA08C /* ViewController.m */,
+				4773C50421199B4D006DA08C /* Main.storyboard */,
+				4773C50721199B4F006DA08C /* Assets.xcassets */,
+				4773C50921199B4F006DA08C /* LaunchScreen.storyboard */,
+				4773C50C21199B4F006DA08C /* Info.plist */,
+				4773C50D21199B4F006DA08C /* main.m */,
+			);
+			path = "UIGesture 旋转缩放手势";
+			sourceTree = "<group>";
+		};
+		4773C5172119A315006DA08C /* UIGesture 平移-滑动-长按手势 */ = {
+			isa = PBXGroup;
+			children = (
+				4773C5182119A315006DA08C /* AppDelegate.h */,
+				4773C5192119A315006DA08C /* AppDelegate.m */,
+				4773C51B2119A315006DA08C /* ViewController.h */,
+				4773C51C2119A315006DA08C /* ViewController.m */,
+				4773C51E2119A315006DA08C /* Main.storyboard */,
+				4773C5212119A318006DA08C /* Assets.xcassets */,
+				4773C5232119A318006DA08C /* LaunchScreen.storyboard */,
+				4773C5262119A318006DA08C /* Info.plist */,
+				4773C5272119A318006DA08C /* main.m */,
+			);
+			path = "UIGesture 平移-滑动-长按手势";
+			sourceTree = "<group>";
+		};
 		47DAF9852115CF190047E910 = {
 			isa = PBXGroup;
 			children = (
@@ -554,6 +671,9 @@
 				47DAFA892116F2BA0047E910 /* UIViewController */,
 				47DAFAA8211703970047E910 /* NSTimer 定时器 */,
 				4773C4C921198976006DA08C /* UITouch 点击事件 */,
+				4773C4E321199226006DA08C /* UIGesture 点击手势 */,
+				4773C4FD21199B4D006DA08C /* UIGesture 旋转缩放手势 */,
+				4773C5172119A315006DA08C /* UIGesture 平移-滑动-长按手势 */,
 				47DAF98F2115CF190047E910 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -576,6 +696,9 @@
 				4773C4902118592C006DA08C /* _UITextField 文本输出框.app */,
 				4773C4AE21197991006DA08C /* _UIScrollView 滚动视图.app */,
 				4773C4C821198976006DA08C /* UITouch 点击事件.app */,
+				4773C4E221199226006DA08C /* UIGesture 点击手势.app */,
+				4773C4FC21199B4D006DA08C /* UIGesture 旋转缩放手势.app */,
+				4773C5162119A315006DA08C /* UIGesture 平移-滑动-长按手势.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -835,6 +958,57 @@
 			productReference = 4773C4C821198976006DA08C /* UITouch 点击事件.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4773C4E121199226006DA08C /* UIGesture 点击手势 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4773C4F521199228006DA08C /* Build configuration list for PBXNativeTarget "UIGesture 点击手势" */;
+			buildPhases = (
+				4773C4DE21199226006DA08C /* Sources */,
+				4773C4DF21199226006DA08C /* Frameworks */,
+				4773C4E021199226006DA08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIGesture 点击手势";
+			productName = "UIGesture 点击手势";
+			productReference = 4773C4E221199226006DA08C /* UIGesture 点击手势.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4773C4FB21199B4D006DA08C /* UIGesture 旋转缩放手势 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4773C50F21199B4F006DA08C /* Build configuration list for PBXNativeTarget "UIGesture 旋转缩放手势" */;
+			buildPhases = (
+				4773C4F821199B4D006DA08C /* Sources */,
+				4773C4F921199B4D006DA08C /* Frameworks */,
+				4773C4FA21199B4D006DA08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIGesture 旋转缩放手势";
+			productName = "UIGesture 旋转缩放手势";
+			productReference = 4773C4FC21199B4D006DA08C /* UIGesture 旋转缩放手势.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4773C5152119A315006DA08C /* UIGesture 平移-滑动-长按手势 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4773C5292119A318006DA08C /* Build configuration list for PBXNativeTarget "UIGesture 平移-滑动-长按手势" */;
+			buildPhases = (
+				4773C5122119A315006DA08C /* Sources */,
+				4773C5132119A315006DA08C /* Frameworks */,
+				4773C5142119A315006DA08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIGesture 平移-滑动-长按手势";
+			productName = "UIGesture 平移-滑动-长按手势";
+			productReference = 4773C5162119A315006DA08C /* UIGesture 平移-滑动-长按手势.app */;
+			productType = "com.apple.product-type.application";
+		};
 		47DAF98D2115CF190047E910 /* iOS_UI */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47DAF9A42115CF1A0047E910 /* Build configuration list for PBXNativeTarget "iOS_UI" */;
@@ -959,6 +1133,15 @@
 					4773C4C721198975006DA08C = {
 						CreatedOnToolsVersion = 9.3;
 					};
+					4773C4E121199226006DA08C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					4773C4FB21199B4D006DA08C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					4773C5152119A315006DA08C = {
+						CreatedOnToolsVersion = 9.3;
+					};
 					47DAF98D2115CF190047E910 = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -1004,6 +1187,9 @@
 				4773C48F2118592C006DA08C /* _UITextField 文本输出框 */,
 				4773C4AD21197991006DA08C /* _UIScrollView 滚动视图 */,
 				4773C4C721198975006DA08C /* UITouch 点击事件 */,
+				4773C4E121199226006DA08C /* UIGesture 点击手势 */,
+				4773C4FB21199B4D006DA08C /* UIGesture 旋转缩放手势 */,
+				4773C5152119A315006DA08C /* UIGesture 平移-滑动-长按手势 */,
 			);
 		};
 /* End PBXProject section */
@@ -1106,6 +1292,36 @@
 				4773C4D721198977006DA08C /* LaunchScreen.storyboard in Resources */,
 				4773C4D421198977006DA08C /* Assets.xcassets in Resources */,
 				4773C4D221198976006DA08C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C4E021199226006DA08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C4F121199228006DA08C /* LaunchScreen.storyboard in Resources */,
+				4773C4EE21199228006DA08C /* Assets.xcassets in Resources */,
+				4773C4EC21199226006DA08C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C4FA21199B4D006DA08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C50B21199B4F006DA08C /* LaunchScreen.storyboard in Resources */,
+				4773C50821199B4F006DA08C /* Assets.xcassets in Resources */,
+				4773C50621199B4D006DA08C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C5142119A315006DA08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C5252119A318006DA08C /* LaunchScreen.storyboard in Resources */,
+				4773C5222119A318006DA08C /* Assets.xcassets in Resources */,
+				4773C5202119A315006DA08C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1263,6 +1479,36 @@
 				4773C4CF21198976006DA08C /* ViewController.m in Sources */,
 				4773C4DA21198977006DA08C /* main.m in Sources */,
 				4773C4CC21198976006DA08C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C4DE21199226006DA08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C4E921199226006DA08C /* ViewController.m in Sources */,
+				4773C4F421199228006DA08C /* main.m in Sources */,
+				4773C4E621199226006DA08C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C4F821199B4D006DA08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C50321199B4D006DA08C /* ViewController.m in Sources */,
+				4773C50E21199B4F006DA08C /* main.m in Sources */,
+				4773C50021199B4D006DA08C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4773C5122119A315006DA08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4773C51D2119A315006DA08C /* ViewController.m in Sources */,
+				4773C5282119A318006DA08C /* main.m in Sources */,
+				4773C51A2119A315006DA08C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1476,6 +1722,54 @@
 			isa = PBXVariantGroup;
 			children = (
 				4773C4D621198977006DA08C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4773C4EA21199226006DA08C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C4EB21199226006DA08C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4773C4EF21199228006DA08C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C4F021199228006DA08C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4773C50421199B4D006DA08C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C50521199B4D006DA08C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4773C50921199B4F006DA08C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C50A21199B4F006DA08C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4773C51E2119A315006DA08C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C51F2119A315006DA08C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4773C5232119A318006DA08C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4773C5242119A318006DA08C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1903,6 +2197,108 @@
 			};
 			name = Release;
 		};
+		4773C4F621199228006DA08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "UIGesture 点击手势/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.UIGesture-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4773C4F721199228006DA08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "UIGesture 点击手势/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.UIGesture-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4773C51021199B4F006DA08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "UIGesture 旋转缩放手势/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.UIGesture-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4773C51121199B4F006DA08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "UIGesture 旋转缩放手势/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.UIGesture-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4773C52A2119A318006DA08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "UIGesture 平移-滑动-长按手势/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.UIGesture-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4773C52B2119A318006DA08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "UIGesture 平移-滑动-长按手势/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.UIGesture-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		47DAF9A22115CF1A0047E910 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2274,6 +2670,33 @@
 			buildConfigurations = (
 				4773C4DC21198977006DA08C /* Debug */,
 				4773C4DD21198977006DA08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4773C4F521199228006DA08C /* Build configuration list for PBXNativeTarget "UIGesture 点击手势" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4773C4F621199228006DA08C /* Debug */,
+				4773C4F721199228006DA08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4773C50F21199B4F006DA08C /* Build configuration list for PBXNativeTarget "UIGesture 旋转缩放手势" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4773C51021199B4F006DA08C /* Debug */,
+				4773C51121199B4F006DA08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4773C5292119A318006DA08C /* Build configuration list for PBXNativeTarget "UIGesture 平移-滑动-长按手势" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4773C52A2119A318006DA08C /* Debug */,
+				4773C52B2119A318006DA08C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
