@@ -133,8 +133,8 @@ lable.shadowColor        = [UIColor blackColor];
 #### UIAlertController 提示对话框
 #### UIActivityIndicatorView 等待指示器
 #### UITextField 单行文本输入框
-
-
+#### UIScrollView 滚动视图（图像）375*667
+#### UITouch 全局的屏幕点击事件类 
 
 
 
