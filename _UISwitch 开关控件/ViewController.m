@@ -22,6 +22,8 @@
     {
         self.view.backgroundColor = [UIColor yellowColor];
     }
+    //在视图中，通过tag值，获取目标对象
+    UISwitch* swc = [self.view viewWithTag:144];
 }
 
 - (void)viewDidLoad {
@@ -40,6 +42,8 @@
     //forControlEvents:UIControlEventValueChanged 控件发生变化时
     [_swc addTarget:self action:@selector(switchChanged:) forControlEvents:UIControlEventValueChanged];
     [self.view addSubview:_swc];
+    
+    _swc.tag = 144;
 }
 
 

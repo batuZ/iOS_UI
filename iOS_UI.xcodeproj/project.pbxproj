@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		475A318F211A9DAD00CD5EB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A318E211A9DAD00CD5EB9 /* AppDelegate.m */; };
+		475A3192211A9DAD00CD5EB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A3191211A9DAD00CD5EB9 /* ViewController.m */; };
+		475A3195211A9DAD00CD5EB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475A3193211A9DAD00CD5EB9 /* Main.storyboard */; };
+		475A3197211A9DAE00CD5EB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 475A3196211A9DAE00CD5EB9 /* Assets.xcassets */; };
+		475A319A211A9DAE00CD5EB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475A3198211A9DAE00CD5EB9 /* LaunchScreen.storyboard */; };
+		475A319D211A9DAE00CD5EB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A319C211A9DAE00CD5EB9 /* main.m */; };
+		475A31A3211AA72100CD5EB9 /* myView.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A31A2211AA72100CD5EB9 /* myView.m */; };
 		4773C3DE21173DE0006DA08C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C3DD21173DE0006DA08C /* AppDelegate.m */; };
 		4773C3E121173DE0006DA08C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C3E021173DE0006DA08C /* ViewController.m */; };
 		4773C3E421173DE1006DA08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C3E221173DE1006DA08C /* Main.storyboard */; };
@@ -123,6 +130,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		475A318B211A9DAD00CD5EB9 /* 视图布局.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "视图布局.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		475A318D211A9DAD00CD5EB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		475A318E211A9DAD00CD5EB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		475A3190211A9DAD00CD5EB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		475A3191211A9DAD00CD5EB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		475A3194211A9DAD00CD5EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		475A3196211A9DAE00CD5EB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		475A3199211A9DAE00CD5EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		475A319B211A9DAE00CD5EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		475A319C211A9DAE00CD5EB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		475A31A1211AA72100CD5EB9 /* myView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myView.h; sourceTree = "<group>"; };
+		475A31A2211AA72100CD5EB9 /* myView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myView.m; sourceTree = "<group>"; };
 		4773C3DA21173DE0006DA08C /* _UISwitch 开关控件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "_UISwitch 开关控件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4773C3DC21173DE0006DA08C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4773C3DD21173DE0006DA08C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -312,6 +331,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		475A3188211A9DAD00CD5EB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4773C3D721173DE0006DA08C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -441,6 +467,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		475A318C211A9DAD00CD5EB9 /* 视图布局 */ = {
+			isa = PBXGroup;
+			children = (
+				475A318D211A9DAD00CD5EB9 /* AppDelegate.h */,
+				475A318E211A9DAD00CD5EB9 /* AppDelegate.m */,
+				475A3190211A9DAD00CD5EB9 /* ViewController.h */,
+				475A3191211A9DAD00CD5EB9 /* ViewController.m */,
+				475A3193211A9DAD00CD5EB9 /* Main.storyboard */,
+				475A3196211A9DAE00CD5EB9 /* Assets.xcassets */,
+				475A3198211A9DAE00CD5EB9 /* LaunchScreen.storyboard */,
+				475A319B211A9DAE00CD5EB9 /* Info.plist */,
+				475A319C211A9DAE00CD5EB9 /* main.m */,
+				475A31A1211AA72100CD5EB9 /* myView.h */,
+				475A31A2211AA72100CD5EB9 /* myView.m */,
+			);
+			path = "视图布局";
+			sourceTree = "<group>";
+		};
 		4773C3DB21173DE0006DA08C /* _UISwitch 开关控件 */ = {
 			isa = PBXGroup;
 			children = (
@@ -674,6 +718,7 @@
 				4773C4E321199226006DA08C /* UIGesture 点击手势 */,
 				4773C4FD21199B4D006DA08C /* UIGesture 旋转缩放手势 */,
 				4773C5172119A315006DA08C /* UIGesture 平移-滑动-长按手势 */,
+				475A318C211A9DAD00CD5EB9 /* 视图布局 */,
 				47DAF98F2115CF190047E910 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -699,6 +744,7 @@
 				4773C4E221199226006DA08C /* UIGesture 点击手势.app */,
 				4773C4FC21199B4D006DA08C /* UIGesture 旋转缩放手势.app */,
 				4773C5162119A315006DA08C /* UIGesture 平移-滑动-长按手势.app */,
+				475A318B211A9DAD00CD5EB9 /* 视图布局.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -788,6 +834,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		475A318A211A9DAD00CD5EB9 /* 视图布局 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 475A31A0211A9DAE00CD5EB9 /* Build configuration list for PBXNativeTarget "视图布局" */;
+			buildPhases = (
+				475A3187211A9DAD00CD5EB9 /* Sources */,
+				475A3188211A9DAD00CD5EB9 /* Frameworks */,
+				475A3189211A9DAD00CD5EB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "视图布局";
+			productName = "视图布局";
+			productReference = 475A318B211A9DAD00CD5EB9 /* 视图布局.app */;
+			productType = "com.apple.product-type.application";
+		};
 		4773C3D921173DE0006DA08C /* _UISwitch 开关控件 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4773C3EF21173DE3006DA08C /* Build configuration list for PBXNativeTarget "_UISwitch 开关控件" */;
@@ -1103,6 +1166,9 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = gvitech;
 				TargetAttributes = {
+					475A318A211A9DAD00CD5EB9 = {
+						CreatedOnToolsVersion = 9.3;
+					};
 					4773C3D921173DE0006DA08C = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -1190,11 +1256,22 @@
 				4773C4E121199226006DA08C /* UIGesture 点击手势 */,
 				4773C4FB21199B4D006DA08C /* UIGesture 旋转缩放手势 */,
 				4773C5152119A315006DA08C /* UIGesture 平移-滑动-长按手势 */,
+				475A318A211A9DAD00CD5EB9 /* 视图布局 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		475A3189211A9DAD00CD5EB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475A319A211A9DAE00CD5EB9 /* LaunchScreen.storyboard in Resources */,
+				475A3197211A9DAE00CD5EB9 /* Assets.xcassets in Resources */,
+				475A3195211A9DAD00CD5EB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4773C3D821173DE0006DA08C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1382,6 +1459,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		475A3187211A9DAD00CD5EB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475A31A3211AA72100CD5EB9 /* myView.m in Sources */,
+				475A3192211A9DAD00CD5EB9 /* ViewController.m in Sources */,
+				475A319D211A9DAE00CD5EB9 /* main.m in Sources */,
+				475A318F211A9DAD00CD5EB9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4773C3D621173DE0006DA08C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1566,6 +1654,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		475A3193211A9DAD00CD5EB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				475A3194211A9DAD00CD5EB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		475A3198211A9DAE00CD5EB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				475A3199211A9DAE00CD5EB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		4773C3E221173DE1006DA08C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1857,6 +1961,40 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		475A319E211A9DAE00CD5EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "视图布局/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		475A319F211A9DAE00CD5EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "视图布局/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		4773C3ED21173DE3006DA08C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2584,6 +2722,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		475A31A0211A9DAE00CD5EB9 /* Build configuration list for PBXNativeTarget "视图布局" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				475A319E211A9DAE00CD5EB9 /* Debug */,
+				475A319F211A9DAE00CD5EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4773C3EF21173DE3006DA08C /* Build configuration list for PBXNativeTarget "_UISwitch 开关控件" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
