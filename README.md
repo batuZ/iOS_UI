@@ -137,8 +137,8 @@ lable.shadowColor        = [UIColor blackColor];
 #### UITouch 全局的屏幕点击事件类 
 #### UIGesture 点击手势
 
-
-
+#### UINavigationController 导航控制器
+#### UITabarController 分栏控制器
 
 
 

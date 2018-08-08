@@ -14,6 +14,24 @@
 		475A319A211A9DAE00CD5EB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475A3198211A9DAE00CD5EB9 /* LaunchScreen.storyboard */; };
 		475A319D211A9DAE00CD5EB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A319C211A9DAE00CD5EB9 /* main.m */; };
 		475A31A3211AA72100CD5EB9 /* myView.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A31A2211AA72100CD5EB9 /* myView.m */; };
+		475A31C9211ABD9E00CD5EB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A31C8211ABD9E00CD5EB9 /* AppDelegate.m */; };
+		475A31CC211ABD9E00CD5EB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A31CB211ABD9E00CD5EB9 /* ViewController.m */; };
+		475A31CF211ABD9E00CD5EB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475A31CD211ABD9E00CD5EB9 /* Main.storyboard */; };
+		475A31D1211ABDA000CD5EB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 475A31D0211ABDA000CD5EB9 /* Assets.xcassets */; };
+		475A31D4211ABDA000CD5EB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475A31D2211ABDA000CD5EB9 /* LaunchScreen.storyboard */; };
+		475A31D7211ABDA000CD5EB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A31D6211ABDA000CD5EB9 /* main.m */; };
+		475A31DD211ABE6600CD5EB9 /* navRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A31DC211ABE6600CD5EB9 /* navRoot.m */; };
+		475A31E0211ACBC300CD5EB9 /* navView_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A31DF211ACBC300CD5EB9 /* navView_1.m */; };
+		475A31E3211AD27900CD5EB9 /* navView_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A31E2211AD27900CD5EB9 /* navView_2.m */; };
+		475A31EC211ADCC500CD5EB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A31EB211ADCC500CD5EB9 /* AppDelegate.m */; };
+		475A31EF211ADCC500CD5EB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A31EE211ADCC500CD5EB9 /* ViewController.m */; };
+		475A31F2211ADCC500CD5EB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475A31F0211ADCC500CD5EB9 /* Main.storyboard */; };
+		475A31F4211ADCC800CD5EB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 475A31F3211ADCC800CD5EB9 /* Assets.xcassets */; };
+		475A31F7211ADCC800CD5EB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475A31F5211ADCC800CD5EB9 /* LaunchScreen.storyboard */; };
+		475A31FA211ADCC800CD5EB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A31F9211ADCC800CD5EB9 /* main.m */; };
+		475A3200211ADD0500CD5EB9 /* ViewController_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A31FF211ADD0500CD5EB9 /* ViewController_A.m */; };
+		475A3203211ADD1200CD5EB9 /* ViewController_B.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A3202211ADD1200CD5EB9 /* ViewController_B.m */; };
+		475A3206211ADD2000CD5EB9 /* ViewController_C.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A3205211ADD2000CD5EB9 /* ViewController_C.m */; };
 		4773C3DE21173DE0006DA08C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C3DD21173DE0006DA08C /* AppDelegate.m */; };
 		4773C3E121173DE0006DA08C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C3E021173DE0006DA08C /* ViewController.m */; };
 		4773C3E421173DE1006DA08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C3E221173DE1006DA08C /* Main.storyboard */; };
@@ -142,6 +160,38 @@
 		475A319C211A9DAE00CD5EB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		475A31A1211AA72100CD5EB9 /* myView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myView.h; sourceTree = "<group>"; };
 		475A31A2211AA72100CD5EB9 /* myView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myView.m; sourceTree = "<group>"; };
+		475A31C5211ABD9E00CD5EB9 /* _UINavigationController 导航控制器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "_UINavigationController 导航控制器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		475A31C7211ABD9E00CD5EB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		475A31C8211ABD9E00CD5EB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		475A31CA211ABD9E00CD5EB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		475A31CB211ABD9E00CD5EB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		475A31CE211ABD9E00CD5EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		475A31D0211ABDA000CD5EB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		475A31D3211ABDA000CD5EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		475A31D5211ABDA000CD5EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		475A31D6211ABDA000CD5EB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		475A31DB211ABE6600CD5EB9 /* navRoot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = navRoot.h; sourceTree = "<group>"; };
+		475A31DC211ABE6600CD5EB9 /* navRoot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = navRoot.m; sourceTree = "<group>"; };
+		475A31DE211ACBC300CD5EB9 /* navView_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = navView_1.h; sourceTree = "<group>"; };
+		475A31DF211ACBC300CD5EB9 /* navView_1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = navView_1.m; sourceTree = "<group>"; };
+		475A31E1211AD27900CD5EB9 /* navView_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = navView_2.h; sourceTree = "<group>"; };
+		475A31E2211AD27900CD5EB9 /* navView_2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = navView_2.m; sourceTree = "<group>"; };
+		475A31E8211ADCC500CD5EB9 /* _UITabBarController 分栏控制器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "_UITabBarController 分栏控制器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		475A31EA211ADCC500CD5EB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		475A31EB211ADCC500CD5EB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		475A31ED211ADCC500CD5EB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		475A31EE211ADCC500CD5EB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		475A31F1211ADCC500CD5EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		475A31F3211ADCC800CD5EB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		475A31F6211ADCC800CD5EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		475A31F8211ADCC800CD5EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		475A31F9211ADCC800CD5EB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		475A31FE211ADD0500CD5EB9 /* ViewController_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController_A.h; sourceTree = "<group>"; };
+		475A31FF211ADD0500CD5EB9 /* ViewController_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController_A.m; sourceTree = "<group>"; };
+		475A3201211ADD1200CD5EB9 /* ViewController_B.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController_B.h; sourceTree = "<group>"; };
+		475A3202211ADD1200CD5EB9 /* ViewController_B.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController_B.m; sourceTree = "<group>"; };
+		475A3204211ADD2000CD5EB9 /* ViewController_C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController_C.h; sourceTree = "<group>"; };
+		475A3205211ADD2000CD5EB9 /* ViewController_C.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController_C.m; sourceTree = "<group>"; };
 		4773C3DA21173DE0006DA08C /* _UISwitch 开关控件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "_UISwitch 开关控件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4773C3DC21173DE0006DA08C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4773C3DD21173DE0006DA08C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -338,6 +388,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		475A31C2211ABD9E00CD5EB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		475A31E5211ADCC500CD5EB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4773C3D721173DE0006DA08C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -483,6 +547,50 @@
 				475A31A2211AA72100CD5EB9 /* myView.m */,
 			);
 			path = "视图布局";
+			sourceTree = "<group>";
+		};
+		475A31C6211ABD9E00CD5EB9 /* _UINavigationController 导航控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				475A31C7211ABD9E00CD5EB9 /* AppDelegate.h */,
+				475A31C8211ABD9E00CD5EB9 /* AppDelegate.m */,
+				475A31CA211ABD9E00CD5EB9 /* ViewController.h */,
+				475A31CB211ABD9E00CD5EB9 /* ViewController.m */,
+				475A31CD211ABD9E00CD5EB9 /* Main.storyboard */,
+				475A31D0211ABDA000CD5EB9 /* Assets.xcassets */,
+				475A31D2211ABDA000CD5EB9 /* LaunchScreen.storyboard */,
+				475A31D5211ABDA000CD5EB9 /* Info.plist */,
+				475A31D6211ABDA000CD5EB9 /* main.m */,
+				475A31DB211ABE6600CD5EB9 /* navRoot.h */,
+				475A31DC211ABE6600CD5EB9 /* navRoot.m */,
+				475A31DE211ACBC300CD5EB9 /* navView_1.h */,
+				475A31DF211ACBC300CD5EB9 /* navView_1.m */,
+				475A31E1211AD27900CD5EB9 /* navView_2.h */,
+				475A31E2211AD27900CD5EB9 /* navView_2.m */,
+			);
+			path = "_UINavigationController 导航控制器";
+			sourceTree = "<group>";
+		};
+		475A31E9211ADCC500CD5EB9 /* _UITabBarController 分栏控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				475A31EA211ADCC500CD5EB9 /* AppDelegate.h */,
+				475A31EB211ADCC500CD5EB9 /* AppDelegate.m */,
+				475A31ED211ADCC500CD5EB9 /* ViewController.h */,
+				475A31EE211ADCC500CD5EB9 /* ViewController.m */,
+				475A31F0211ADCC500CD5EB9 /* Main.storyboard */,
+				475A31F3211ADCC800CD5EB9 /* Assets.xcassets */,
+				475A31F5211ADCC800CD5EB9 /* LaunchScreen.storyboard */,
+				475A31F8211ADCC800CD5EB9 /* Info.plist */,
+				475A31F9211ADCC800CD5EB9 /* main.m */,
+				475A31FE211ADD0500CD5EB9 /* ViewController_A.h */,
+				475A31FF211ADD0500CD5EB9 /* ViewController_A.m */,
+				475A3201211ADD1200CD5EB9 /* ViewController_B.h */,
+				475A3202211ADD1200CD5EB9 /* ViewController_B.m */,
+				475A3204211ADD2000CD5EB9 /* ViewController_C.h */,
+				475A3205211ADD2000CD5EB9 /* ViewController_C.m */,
+			);
+			path = "_UITabBarController 分栏控制器";
 			sourceTree = "<group>";
 		};
 		4773C3DB21173DE0006DA08C /* _UISwitch 开关控件 */ = {
@@ -712,6 +820,8 @@
 				4773C4772118564E006DA08C /* _UIActivityIndicatorView 等待指示器 */,
 				4773C4912118592C006DA08C /* _UITextField 文本输出框 */,
 				4773C4AF21197991006DA08C /* _UIScrollView 滚动视图 */,
+				475A31E9211ADCC500CD5EB9 /* _UITabBarController 分栏控制器 */,
+				475A31C6211ABD9E00CD5EB9 /* _UINavigationController 导航控制器 */,
 				47DAFA892116F2BA0047E910 /* UIViewController */,
 				47DAFAA8211703970047E910 /* NSTimer 定时器 */,
 				4773C4C921198976006DA08C /* UITouch 点击事件 */,
@@ -745,6 +855,8 @@
 				4773C4FC21199B4D006DA08C /* UIGesture 旋转缩放手势.app */,
 				4773C5162119A315006DA08C /* UIGesture 平移-滑动-长按手势.app */,
 				475A318B211A9DAD00CD5EB9 /* 视图布局.app */,
+				475A31C5211ABD9E00CD5EB9 /* _UINavigationController 导航控制器.app */,
+				475A31E8211ADCC500CD5EB9 /* _UITabBarController 分栏控制器.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -849,6 +961,40 @@
 			name = "视图布局";
 			productName = "视图布局";
 			productReference = 475A318B211A9DAD00CD5EB9 /* 视图布局.app */;
+			productType = "com.apple.product-type.application";
+		};
+		475A31C4211ABD9E00CD5EB9 /* _UINavigationController 导航控制器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 475A31DA211ABDA000CD5EB9 /* Build configuration list for PBXNativeTarget "_UINavigationController 导航控制器" */;
+			buildPhases = (
+				475A31C1211ABD9E00CD5EB9 /* Sources */,
+				475A31C2211ABD9E00CD5EB9 /* Frameworks */,
+				475A31C3211ABD9E00CD5EB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "_UINavigationController 导航控制器";
+			productName = "_UINavigationController 导航控制器";
+			productReference = 475A31C5211ABD9E00CD5EB9 /* _UINavigationController 导航控制器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		475A31E7211ADCC500CD5EB9 /* _UITabBarController 分栏控制器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 475A31FB211ADCC800CD5EB9 /* Build configuration list for PBXNativeTarget "_UITabBarController 分栏控制器" */;
+			buildPhases = (
+				475A31E4211ADCC500CD5EB9 /* Sources */,
+				475A31E5211ADCC500CD5EB9 /* Frameworks */,
+				475A31E6211ADCC500CD5EB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "_UITabBarController 分栏控制器";
+			productName = "_UITabBarController 分栏控制器";
+			productReference = 475A31E8211ADCC500CD5EB9 /* _UITabBarController 分栏控制器.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4773C3D921173DE0006DA08C /* _UISwitch 开关控件 */ = {
@@ -1169,6 +1315,12 @@
 					475A318A211A9DAD00CD5EB9 = {
 						CreatedOnToolsVersion = 9.3;
 					};
+					475A31C4211ABD9E00CD5EB9 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					475A31E7211ADCC500CD5EB9 = {
+						CreatedOnToolsVersion = 9.3;
+					};
 					4773C3D921173DE0006DA08C = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -1257,6 +1409,8 @@
 				4773C4FB21199B4D006DA08C /* UIGesture 旋转缩放手势 */,
 				4773C5152119A315006DA08C /* UIGesture 平移-滑动-长按手势 */,
 				475A318A211A9DAD00CD5EB9 /* 视图布局 */,
+				475A31C4211ABD9E00CD5EB9 /* _UINavigationController 导航控制器 */,
+				475A31E7211ADCC500CD5EB9 /* _UITabBarController 分栏控制器 */,
 			);
 		};
 /* End PBXProject section */
@@ -1269,6 +1423,26 @@
 				475A319A211A9DAE00CD5EB9 /* LaunchScreen.storyboard in Resources */,
 				475A3197211A9DAE00CD5EB9 /* Assets.xcassets in Resources */,
 				475A3195211A9DAD00CD5EB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		475A31C3211ABD9E00CD5EB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475A31D4211ABDA000CD5EB9 /* LaunchScreen.storyboard in Resources */,
+				475A31D1211ABDA000CD5EB9 /* Assets.xcassets in Resources */,
+				475A31CF211ABD9E00CD5EB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		475A31E6211ADCC500CD5EB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475A31F7211ADCC800CD5EB9 /* LaunchScreen.storyboard in Resources */,
+				475A31F4211ADCC800CD5EB9 /* Assets.xcassets in Resources */,
+				475A31F2211ADCC500CD5EB9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1470,6 +1644,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		475A31C1211ABD9E00CD5EB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475A31CC211ABD9E00CD5EB9 /* ViewController.m in Sources */,
+				475A31DD211ABE6600CD5EB9 /* navRoot.m in Sources */,
+				475A31D7211ABDA000CD5EB9 /* main.m in Sources */,
+				475A31E3211AD27900CD5EB9 /* navView_2.m in Sources */,
+				475A31C9211ABD9E00CD5EB9 /* AppDelegate.m in Sources */,
+				475A31E0211ACBC300CD5EB9 /* navView_1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		475A31E4211ADCC500CD5EB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475A3206211ADD2000CD5EB9 /* ViewController_C.m in Sources */,
+				475A3203211ADD1200CD5EB9 /* ViewController_B.m in Sources */,
+				475A3200211ADD0500CD5EB9 /* ViewController_A.m in Sources */,
+				475A31EF211ADCC500CD5EB9 /* ViewController.m in Sources */,
+				475A31FA211ADCC800CD5EB9 /* main.m in Sources */,
+				475A31EC211ADCC500CD5EB9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4773C3D621173DE0006DA08C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1666,6 +1866,38 @@
 			isa = PBXVariantGroup;
 			children = (
 				475A3199211A9DAE00CD5EB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		475A31CD211ABD9E00CD5EB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				475A31CE211ABD9E00CD5EB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		475A31D2211ABDA000CD5EB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				475A31D3211ABDA000CD5EB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		475A31F0211ADCC500CD5EB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				475A31F1211ADCC500CD5EB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		475A31F5211ADCC800CD5EB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				475A31F6211ADCC800CD5EB9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1990,6 +2222,74 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "BT.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		475A31D8211ABDA000CD5EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UINavigationController 导航控制器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UINavigationController------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		475A31D9211ABDA000CD5EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UINavigationController 导航控制器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UINavigationController------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		475A31FC211ADCC800CD5EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UITabBarController 分栏控制器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UITabBarController------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		475A31FD211ADCC800CD5EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UITabBarController 分栏控制器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UITabBarController------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2727,6 +3027,24 @@
 			buildConfigurations = (
 				475A319E211A9DAE00CD5EB9 /* Debug */,
 				475A319F211A9DAE00CD5EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		475A31DA211ABDA000CD5EB9 /* Build configuration list for PBXNativeTarget "_UINavigationController 导航控制器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				475A31D8211ABDA000CD5EB9 /* Debug */,
+				475A31D9211ABDA000CD5EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		475A31FB211ADCC800CD5EB9 /* Build configuration list for PBXNativeTarget "_UITabBarController 分栏控制器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				475A31FC211ADCC800CD5EB9 /* Debug */,
+				475A31FD211ADCC800CD5EB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
