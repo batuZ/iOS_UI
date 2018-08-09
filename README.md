@@ -144,6 +144,11 @@ lable.shadowColor        = [UIColor blackColor];
 
 #### NSUserDefaults 本地化数据的全局类
 #### UITableView 列表视图
+#### AVAudioPlayer 音频播放类
+
+## Cocoapods
+        参考网址：https://blog.csdn.net/jiankeufo/article/details/79362660
+
 
 
 
