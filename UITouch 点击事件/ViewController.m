@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    imgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"/Users/Batu/MyData/OC/iOS_UI/IMG_1.PNG"]];
+    imgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"/Users/Batu/MyData/OC/iOS_UI/images/timg2.jpg"]];
     imgView.frame = CGRectMake(30, 50, 200, 360);
     [self.view addSubview:imgView];
 }

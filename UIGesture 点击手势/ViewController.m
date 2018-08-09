@@ -16,7 +16,7 @@
 
 //创建测试view
 -(void)createTestImage{
-    imgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"/Users/Batu/MyData/OC/iOS_UI/IMG_1.PNG"]];
+    imgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"/Users/Batu/MyData/OC/iOS_UI/images/timg2.jpg"]];
     imgView.frame = CGRectMake(30, 50, 200, 360);
     //交互事件响应开关，默认为NO
     imgView.userInteractionEnabled = YES;

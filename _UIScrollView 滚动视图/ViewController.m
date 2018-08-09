@@ -41,8 +41,8 @@
     sv.userInteractionEnabled = YES;
     
     //加入图像
-    UIImage* img1 = [UIImage imageNamed:@"/Users/Batu/MyData/OC/iOS_UI/IMG_1.PNG"];
-    UIImage* img2 = [UIImage imageNamed:@"/Users/Batu/MyData/OC/iOS_UI/IMG_2.PNG"];
+    UIImage* img1 = [UIImage imageNamed:@"/Users/Batu/MyData/OC/iOS_UI/images/timg1.jpg"];
+    UIImage* img2 = [UIImage imageNamed:@"/Users/Batu/MyData/OC/iOS_UI/images/timg2.jpg"];
     UIImageView* imgView1 = [[UIImageView alloc] initWithImage:img1];
     UIImageView* imgView2 = [[UIImageView alloc] initWithImage:img2];
     imgView1.frame = CGRectMake(0, 0, 375, 667);

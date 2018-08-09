@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		472DF182211BD51A00734656 /* timg3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 472DF17C211BD51A00734656 /* timg3.jpg */; };
+		472DF183211BD51A00734656 /* timg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 472DF17D211BD51A00734656 /* timg2.jpg */; };
+		472DF184211BD51A00734656 /* timg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 472DF17E211BD51A00734656 /* timg1.jpg */; };
+		472DF185211BD51A00734656 /* timg5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 472DF17F211BD51A00734656 /* timg5.jpg */; };
+		472DF186211BD51A00734656 /* timg4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 472DF180211BD51A00734656 /* timg4.jpg */; };
+		472DF187211BD51A00734656 /* timg6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 472DF181211BD51A00734656 /* timg6.jpg */; };
 		475A318F211A9DAD00CD5EB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A318E211A9DAD00CD5EB9 /* AppDelegate.m */; };
 		475A3192211A9DAD00CD5EB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A3191211A9DAD00CD5EB9 /* ViewController.m */; };
 		475A3195211A9DAD00CD5EB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475A3193211A9DAD00CD5EB9 /* Main.storyboard */; };
@@ -80,8 +86,6 @@
 		4773C49C2118592D006DA08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4773C49B2118592D006DA08C /* Assets.xcassets */; };
 		4773C49F2118592D006DA08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C49D2118592D006DA08C /* LaunchScreen.storyboard */; };
 		4773C4A22118592D006DA08C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C4A12118592D006DA08C /* main.m */; };
-		4773C4A8211978C5006DA08C /* IMG_1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 4773C4A6211978C5006DA08C /* IMG_1.PNG */; };
-		4773C4A9211978C6006DA08C /* IMG_2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 4773C4A7211978C5006DA08C /* IMG_2.PNG */; };
 		4773C4B221197991006DA08C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C4B121197991006DA08C /* AppDelegate.m */; };
 		4773C4B521197991006DA08C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C4B421197991006DA08C /* ViewController.m */; };
 		4773C4B821197991006DA08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C4B621197991006DA08C /* Main.storyboard */; };
@@ -148,6 +152,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		472DF17C211BD51A00734656 /* timg3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg3.jpg; sourceTree = "<group>"; };
+		472DF17D211BD51A00734656 /* timg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg2.jpg; sourceTree = "<group>"; };
+		472DF17E211BD51A00734656 /* timg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg1.jpg; sourceTree = "<group>"; };
+		472DF17F211BD51A00734656 /* timg5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg5.jpg; sourceTree = "<group>"; };
+		472DF180211BD51A00734656 /* timg4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg4.jpg; sourceTree = "<group>"; };
+		472DF181211BD51A00734656 /* timg6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg6.jpg; sourceTree = "<group>"; };
 		475A318B211A9DAD00CD5EB9 /* 视图布局.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "视图布局.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		475A318D211A9DAD00CD5EB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		475A318E211A9DAD00CD5EB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -272,8 +282,6 @@
 		4773C49E2118592D006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4773C4A02118592D006DA08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4773C4A12118592D006DA08C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4773C4A6211978C5006DA08C /* IMG_1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1.PNG; sourceTree = "<group>"; };
-		4773C4A7211978C5006DA08C /* IMG_2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2.PNG; sourceTree = "<group>"; };
 		4773C4AE21197991006DA08C /* _UIScrollView 滚动视图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "_UIScrollView 滚动视图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4773C4B021197991006DA08C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4773C4B121197991006DA08C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -531,6 +539,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		472DF17B211BD51A00734656 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				47DAFAA1211701030047E910 /* buImg.png */,
+				472DF17C211BD51A00734656 /* timg3.jpg */,
+				472DF17D211BD51A00734656 /* timg2.jpg */,
+				472DF17E211BD51A00734656 /* timg1.jpg */,
+				472DF17F211BD51A00734656 /* timg5.jpg */,
+				472DF180211BD51A00734656 /* timg4.jpg */,
+				472DF181211BD51A00734656 /* timg6.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		475A318C211A9DAD00CD5EB9 /* 视图布局 */ = {
 			isa = PBXGroup;
 			children = (
@@ -804,9 +826,7 @@
 		47DAF9852115CF190047E910 = {
 			isa = PBXGroup;
 			children = (
-				4773C4A6211978C5006DA08C /* IMG_1.PNG */,
-				4773C4A7211978C5006DA08C /* IMG_2.PNG */,
-				47DAFAA1211701030047E910 /* buImg.png */,
+				472DF17B211BD51A00734656 /* images */,
 				47DAF9A72115D0550047E910 /* README.md */,
 				47DAF9902115CF190047E910 /* iOS_UI */,
 				47DAF9AE2115D3DC0047E910 /* _UILable */,
@@ -1580,12 +1600,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				472DF185211BD51A00734656 /* timg5.jpg in Resources */,
+				472DF182211BD51A00734656 /* timg3.jpg in Resources */,
 				47DAF99E2115CF1A0047E910 /* LaunchScreen.storyboard in Resources */,
 				47DAF99B2115CF1A0047E910 /* Assets.xcassets in Resources */,
+				472DF186211BD51A00734656 /* timg4.jpg in Resources */,
+				472DF183211BD51A00734656 /* timg2.jpg in Resources */,
 				47DAF9A82115D0550047E910 /* README.md in Resources */,
 				47DAF9992115CF1A0047E910 /* Main.storyboard in Resources */,
-				4773C4A9211978C6006DA08C /* IMG_2.PNG in Resources */,
-				4773C4A8211978C5006DA08C /* IMG_1.PNG in Resources */,
+				472DF184211BD51A00734656 /* timg1.jpg in Resources */,
+				472DF187211BD51A00734656 /* timg6.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
