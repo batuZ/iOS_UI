@@ -123,17 +123,17 @@ lable.shadowColor        = [UIColor blackColor];
 #### UISwitch 开关控件
 #### UIProgressView 进度条
         被动对象，只能相应事件，不能主动触发事件
-#### UISlider 滑动条
+#### UISlider 滑动条 显示播放进度或设置播放进度
         主动对象，可以出发事件
         
-#### UIStepper 步进器
+#### UIStepper 步进器 选择数量
     按指定步长设置值，受最大最小值限制
 
-####  UISegmentedControl 分栏控件
+####  UISegmentedControl 分栏控件 
 #### UIAlertController 提示对话框
-#### UIActivityIndicatorView 等待指示器
+#### UIActivityIndicatorView 等待指示器 
 #### UITextField 单行文本输入框
-#### UIScrollView 滚动视图（图像）375*667
+#### UIScrollView 滚动视图（图像）375*667 
 #### UITouch 全局的屏幕点击事件类 
 #### UIGesture 点击手势
 
@@ -143,7 +143,7 @@ lable.shadowColor        = [UIColor blackColor];
 #### UIPickerView 选择视图 （日期编号等）
 
 #### NSUserDefaults 本地化数据的全局类
-
+#### UITableView 列表视图
 
 
 

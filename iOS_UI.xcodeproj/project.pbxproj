@@ -27,6 +27,13 @@
 		472DF1BD211BE62F00734656 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF1BC211BE62F00734656 /* main.m */; };
 		472DF1C4211BE67400734656 /* NSUserDef.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF1C2211BE67400734656 /* NSUserDef.m */; };
 		472DF1C5211BE67400734656 /* NSUserDef.xib in Resources */ = {isa = PBXBuildFile; fileRef = 472DF1C3211BE67400734656 /* NSUserDef.xib */; };
+		472DF1CE211BEC7700734656 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF1CD211BEC7700734656 /* AppDelegate.m */; };
+		472DF1D4211BEC7700734656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472DF1D2211BEC7700734656 /* Main.storyboard */; };
+		472DF1D6211BEC7800734656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472DF1D5211BEC7800734656 /* Assets.xcassets */; };
+		472DF1D9211BEC7800734656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472DF1D7211BEC7800734656 /* LaunchScreen.storyboard */; };
+		472DF1DC211BEC7800734656 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF1DB211BEC7800734656 /* main.m */; };
+		472DF1E3211BED2100734656 /* MyTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF1E1211BED2100734656 /* MyTable.m */; };
+		472DF1E4211BED2100734656 /* MyTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 472DF1E2211BED2100734656 /* MyTable.xib */; };
 		475A318F211A9DAD00CD5EB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A318E211A9DAD00CD5EB9 /* AppDelegate.m */; };
 		475A3192211A9DAD00CD5EB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A3191211A9DAD00CD5EB9 /* ViewController.m */; };
 		475A3195211A9DAD00CD5EB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475A3193211A9DAD00CD5EB9 /* Main.storyboard */; };
@@ -194,6 +201,17 @@
 		472DF1C1211BE67400734656 /* NSUserDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSUserDef.h; sourceTree = "<group>"; };
 		472DF1C2211BE67400734656 /* NSUserDef.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserDef.m; sourceTree = "<group>"; };
 		472DF1C3211BE67400734656 /* NSUserDef.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NSUserDef.xib; sourceTree = "<group>"; };
+		472DF1CA211BEC7700734656 /* _UITableView 列表视图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "_UITableView 列表视图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		472DF1CC211BEC7700734656 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		472DF1CD211BEC7700734656 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		472DF1D3211BEC7700734656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		472DF1D5211BEC7800734656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		472DF1D8211BEC7800734656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		472DF1DA211BEC7800734656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		472DF1DB211BEC7800734656 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		472DF1E0211BED2100734656 /* MyTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTable.h; sourceTree = "<group>"; };
+		472DF1E1211BED2100734656 /* MyTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTable.m; sourceTree = "<group>"; };
+		472DF1E2211BED2100734656 /* MyTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTable.xib; sourceTree = "<group>"; };
 		475A318B211A9DAD00CD5EB9 /* 视图布局.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "视图布局.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		475A318D211A9DAD00CD5EB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		475A318E211A9DAD00CD5EB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -439,6 +457,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		472DF1C7211BEC7700734656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		475A3188211A9DAD00CD5EB9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -635,6 +660,23 @@
 				472DF1C3211BE67400734656 /* NSUserDef.xib */,
 			);
 			path = "NSUserDefaults 本地化全局类";
+			sourceTree = "<group>";
+		};
+		472DF1CB211BEC7700734656 /* _UITableView 列表视图 */ = {
+			isa = PBXGroup;
+			children = (
+				472DF1CC211BEC7700734656 /* AppDelegate.h */,
+				472DF1CD211BEC7700734656 /* AppDelegate.m */,
+				472DF1D2211BEC7700734656 /* Main.storyboard */,
+				472DF1D5211BEC7800734656 /* Assets.xcassets */,
+				472DF1D7211BEC7800734656 /* LaunchScreen.storyboard */,
+				472DF1DA211BEC7800734656 /* Info.plist */,
+				472DF1DB211BEC7800734656 /* main.m */,
+				472DF1E0211BED2100734656 /* MyTable.h */,
+				472DF1E1211BED2100734656 /* MyTable.m */,
+				472DF1E2211BED2100734656 /* MyTable.xib */,
+			);
+			path = "_UITableView 列表视图";
 			sourceTree = "<group>";
 		};
 		475A318C211A9DAD00CD5EB9 /* 视图布局 */ = {
@@ -927,6 +969,7 @@
 				475A31E9211ADCC500CD5EB9 /* _UITabBarController 分栏控制器 */,
 				475A31C6211ABD9E00CD5EB9 /* _UINavigationController 导航控制器 */,
 				472DF18D211BD6EB00734656 /* _UIPickerView 选择视图 */,
+				472DF1CB211BEC7700734656 /* _UITableView 列表视图 */,
 				47DAFA892116F2BA0047E910 /* UIViewController */,
 				47DAFAA8211703970047E910 /* NSTimer 定时器 */,
 				472DF1AC211BE62E00734656 /* NSUserDefaults 本地化全局类 */,
@@ -965,6 +1008,7 @@
 				475A31E8211ADCC500CD5EB9 /* _UITabBarController 分栏控制器.app */,
 				472DF18C211BD6EB00734656 /* _UIPickerView 选择视图.app */,
 				472DF1AB211BE62E00734656 /* NSUserDefaults 本地化全局类.app */,
+				472DF1CA211BEC7700734656 /* _UITableView 列表视图.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1086,6 +1130,23 @@
 			name = "NSUserDefaults 本地化全局类";
 			productName = "NSUserDefaults 本地化全局类";
 			productReference = 472DF1AB211BE62E00734656 /* NSUserDefaults 本地化全局类.app */;
+			productType = "com.apple.product-type.application";
+		};
+		472DF1C9211BEC7700734656 /* _UITableView 列表视图 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 472DF1DD211BEC7800734656 /* Build configuration list for PBXNativeTarget "_UITableView 列表视图" */;
+			buildPhases = (
+				472DF1C6211BEC7700734656 /* Sources */,
+				472DF1C7211BEC7700734656 /* Frameworks */,
+				472DF1C8211BEC7700734656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "_UITableView 列表视图";
+			productName = "_UITableView 列表视图";
+			productReference = 472DF1CA211BEC7700734656 /* _UITableView 列表视图.app */;
 			productType = "com.apple.product-type.application";
 		};
 		475A318A211A9DAD00CD5EB9 /* 视图布局 */ = {
@@ -1460,6 +1521,9 @@
 					472DF1AA211BE62E00734656 = {
 						CreatedOnToolsVersion = 9.3;
 					};
+					472DF1C9211BEC7700734656 = {
+						CreatedOnToolsVersion = 9.3;
+					};
 					475A318A211A9DAD00CD5EB9 = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -1561,6 +1625,7 @@
 				475A31E7211ADCC500CD5EB9 /* _UITabBarController 分栏控制器 */,
 				472DF18B211BD6EB00734656 /* _UIPickerView 选择视图 */,
 				472DF1AA211BE62E00734656 /* NSUserDefaults 本地化全局类 */,
+				472DF1C9211BEC7700734656 /* _UITableView 列表视图 */,
 			);
 		};
 /* End PBXProject section */
@@ -1585,6 +1650,17 @@
 				472DF1C5211BE67400734656 /* NSUserDef.xib in Resources */,
 				472DF1B7211BE62F00734656 /* Assets.xcassets in Resources */,
 				472DF1B5211BE62E00734656 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472DF1C8211BEC7700734656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472DF1D9211BEC7800734656 /* LaunchScreen.storyboard in Resources */,
+				472DF1D6211BEC7800734656 /* Assets.xcassets in Resources */,
+				472DF1E4211BED2100734656 /* MyTable.xib in Resources */,
+				472DF1D4211BEC7700734656 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1826,6 +1902,16 @@
 				472DF1BD211BE62F00734656 /* main.m in Sources */,
 				472DF1C4211BE67400734656 /* NSUserDef.m in Sources */,
 				472DF1AF211BE62E00734656 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472DF1C6211BEC7700734656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472DF1DC211BEC7800734656 /* main.m in Sources */,
+				472DF1E3211BED2100734656 /* MyTable.m in Sources */,
+				472DF1CE211BEC7700734656 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2078,6 +2164,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				472DF1B9211BE62F00734656 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		472DF1D2211BEC7700734656 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				472DF1D3211BEC7700734656 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		472DF1D7211BEC7800734656 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				472DF1D8211BEC7800734656 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -2484,6 +2586,40 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "BT.NSUserDefaults-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		472DF1DE211BEC7800734656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UITableView 列表视图/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UITableView-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		472DF1DF211BEC7800734656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UITableView 列表视图/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UITableView-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3332,6 +3468,15 @@
 			buildConfigurations = (
 				472DF1BF211BE62F00734656 /* Debug */,
 				472DF1C0211BE62F00734656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		472DF1DD211BEC7800734656 /* Build configuration list for PBXNativeTarget "_UITableView 列表视图" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472DF1DE211BEC7800734656 /* Debug */,
+				472DF1DF211BEC7800734656 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
