@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>NSUserDefaults 本地化全局类.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
 		<key>UIGesture 平移-滑动-长按手势.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -59,6 +64,11 @@
 			<key>orderHint</key>
 			<integer>19</integer>
 		</dict>
+		<key>_UIPickerView 选择视图.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
 		<key>_UIProgressView 进度条.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -92,7 +102,7 @@
 		<key>_UITabBarController 分栏控制器.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>20</integer>
+			<integer>21</integer>
 		</dict>
 		<key>_UITextField 文本输出框.xcscheme</key>
 		<dict>

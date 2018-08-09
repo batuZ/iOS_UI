@@ -140,9 +140,9 @@ lable.shadowColor        = [UIColor blackColor];
 #### UINavigationController 导航控制器
 #### UITabarController 分栏控制器
 
+#### UIPickerView 选择视图 （日期编号等）
 
-
-
+#### NSUserDefaults 本地化数据的全局类
 
 
 

@@ -13,6 +13,20 @@
 		472DF185211BD51A00734656 /* timg5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 472DF17F211BD51A00734656 /* timg5.jpg */; };
 		472DF186211BD51A00734656 /* timg4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 472DF180211BD51A00734656 /* timg4.jpg */; };
 		472DF187211BD51A00734656 /* timg6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 472DF181211BD51A00734656 /* timg6.jpg */; };
+		472DF190211BD6EB00734656 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF18F211BD6EB00734656 /* AppDelegate.m */; };
+		472DF196211BD6EB00734656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472DF194211BD6EB00734656 /* Main.storyboard */; };
+		472DF198211BD6EF00734656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472DF197211BD6EF00734656 /* Assets.xcassets */; };
+		472DF19B211BD6EF00734656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472DF199211BD6EF00734656 /* LaunchScreen.storyboard */; };
+		472DF19E211BD6EF00734656 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF19D211BD6EF00734656 /* main.m */; };
+		472DF1A5211BD79D00734656 /* pickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF1A3211BD79D00734656 /* pickerView.m */; };
+		472DF1A6211BD79D00734656 /* pickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 472DF1A4211BD79D00734656 /* pickerView.xib */; };
+		472DF1AF211BE62E00734656 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF1AE211BE62E00734656 /* AppDelegate.m */; };
+		472DF1B5211BE62E00734656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472DF1B3211BE62E00734656 /* Main.storyboard */; };
+		472DF1B7211BE62F00734656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472DF1B6211BE62F00734656 /* Assets.xcassets */; };
+		472DF1BA211BE62F00734656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472DF1B8211BE62F00734656 /* LaunchScreen.storyboard */; };
+		472DF1BD211BE62F00734656 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF1BC211BE62F00734656 /* main.m */; };
+		472DF1C4211BE67400734656 /* NSUserDef.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF1C2211BE67400734656 /* NSUserDef.m */; };
+		472DF1C5211BE67400734656 /* NSUserDef.xib in Resources */ = {isa = PBXBuildFile; fileRef = 472DF1C3211BE67400734656 /* NSUserDef.xib */; };
 		475A318F211A9DAD00CD5EB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A318E211A9DAD00CD5EB9 /* AppDelegate.m */; };
 		475A3192211A9DAD00CD5EB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A3191211A9DAD00CD5EB9 /* ViewController.m */; };
 		475A3195211A9DAD00CD5EB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475A3193211A9DAD00CD5EB9 /* Main.storyboard */; };
@@ -158,6 +172,28 @@
 		472DF17F211BD51A00734656 /* timg5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg5.jpg; sourceTree = "<group>"; };
 		472DF180211BD51A00734656 /* timg4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg4.jpg; sourceTree = "<group>"; };
 		472DF181211BD51A00734656 /* timg6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg6.jpg; sourceTree = "<group>"; };
+		472DF18C211BD6EB00734656 /* _UIPickerView 选择视图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "_UIPickerView 选择视图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		472DF18E211BD6EB00734656 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		472DF18F211BD6EB00734656 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		472DF195211BD6EB00734656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		472DF197211BD6EF00734656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		472DF19A211BD6EF00734656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		472DF19C211BD6EF00734656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		472DF19D211BD6EF00734656 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		472DF1A2211BD79D00734656 /* pickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pickerView.h; sourceTree = "<group>"; };
+		472DF1A3211BD79D00734656 /* pickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pickerView.m; sourceTree = "<group>"; };
+		472DF1A4211BD79D00734656 /* pickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = pickerView.xib; sourceTree = "<group>"; };
+		472DF1AB211BE62E00734656 /* NSUserDefaults 本地化全局类.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSUserDefaults 本地化全局类.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		472DF1AD211BE62E00734656 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		472DF1AE211BE62E00734656 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		472DF1B4211BE62E00734656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		472DF1B6211BE62F00734656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		472DF1B9211BE62F00734656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		472DF1BB211BE62F00734656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		472DF1BC211BE62F00734656 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		472DF1C1211BE67400734656 /* NSUserDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSUserDef.h; sourceTree = "<group>"; };
+		472DF1C2211BE67400734656 /* NSUserDef.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserDef.m; sourceTree = "<group>"; };
+		472DF1C3211BE67400734656 /* NSUserDef.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NSUserDef.xib; sourceTree = "<group>"; };
 		475A318B211A9DAD00CD5EB9 /* 视图布局.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "视图布局.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		475A318D211A9DAD00CD5EB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		475A318E211A9DAD00CD5EB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -389,6 +425,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		472DF189211BD6EB00734656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472DF1A8211BE62E00734656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		475A3188211A9DAD00CD5EB9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -551,6 +601,40 @@
 				472DF181211BD51A00734656 /* timg6.jpg */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		472DF18D211BD6EB00734656 /* _UIPickerView 选择视图 */ = {
+			isa = PBXGroup;
+			children = (
+				472DF18E211BD6EB00734656 /* AppDelegate.h */,
+				472DF18F211BD6EB00734656 /* AppDelegate.m */,
+				472DF194211BD6EB00734656 /* Main.storyboard */,
+				472DF197211BD6EF00734656 /* Assets.xcassets */,
+				472DF199211BD6EF00734656 /* LaunchScreen.storyboard */,
+				472DF19C211BD6EF00734656 /* Info.plist */,
+				472DF19D211BD6EF00734656 /* main.m */,
+				472DF1A2211BD79D00734656 /* pickerView.h */,
+				472DF1A3211BD79D00734656 /* pickerView.m */,
+				472DF1A4211BD79D00734656 /* pickerView.xib */,
+			);
+			path = "_UIPickerView 选择视图";
+			sourceTree = "<group>";
+		};
+		472DF1AC211BE62E00734656 /* NSUserDefaults 本地化全局类 */ = {
+			isa = PBXGroup;
+			children = (
+				472DF1AD211BE62E00734656 /* AppDelegate.h */,
+				472DF1AE211BE62E00734656 /* AppDelegate.m */,
+				472DF1B3211BE62E00734656 /* Main.storyboard */,
+				472DF1B6211BE62F00734656 /* Assets.xcassets */,
+				472DF1B8211BE62F00734656 /* LaunchScreen.storyboard */,
+				472DF1BB211BE62F00734656 /* Info.plist */,
+				472DF1BC211BE62F00734656 /* main.m */,
+				472DF1C1211BE67400734656 /* NSUserDef.h */,
+				472DF1C2211BE67400734656 /* NSUserDef.m */,
+				472DF1C3211BE67400734656 /* NSUserDef.xib */,
+			);
+			path = "NSUserDefaults 本地化全局类";
 			sourceTree = "<group>";
 		};
 		475A318C211A9DAD00CD5EB9 /* 视图布局 */ = {
@@ -842,8 +926,10 @@
 				4773C4AF21197991006DA08C /* _UIScrollView 滚动视图 */,
 				475A31E9211ADCC500CD5EB9 /* _UITabBarController 分栏控制器 */,
 				475A31C6211ABD9E00CD5EB9 /* _UINavigationController 导航控制器 */,
+				472DF18D211BD6EB00734656 /* _UIPickerView 选择视图 */,
 				47DAFA892116F2BA0047E910 /* UIViewController */,
 				47DAFAA8211703970047E910 /* NSTimer 定时器 */,
+				472DF1AC211BE62E00734656 /* NSUserDefaults 本地化全局类 */,
 				4773C4C921198976006DA08C /* UITouch 点击事件 */,
 				4773C4E321199226006DA08C /* UIGesture 点击手势 */,
 				4773C4FD21199B4D006DA08C /* UIGesture 旋转缩放手势 */,
@@ -877,6 +963,8 @@
 				475A318B211A9DAD00CD5EB9 /* 视图布局.app */,
 				475A31C5211ABD9E00CD5EB9 /* _UINavigationController 导航控制器.app */,
 				475A31E8211ADCC500CD5EB9 /* _UITabBarController 分栏控制器.app */,
+				472DF18C211BD6EB00734656 /* _UIPickerView 选择视图.app */,
+				472DF1AB211BE62E00734656 /* NSUserDefaults 本地化全局类.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -966,6 +1054,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		472DF18B211BD6EB00734656 /* _UIPickerView 选择视图 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 472DF19F211BD6EF00734656 /* Build configuration list for PBXNativeTarget "_UIPickerView 选择视图" */;
+			buildPhases = (
+				472DF188211BD6EB00734656 /* Sources */,
+				472DF189211BD6EB00734656 /* Frameworks */,
+				472DF18A211BD6EB00734656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "_UIPickerView 选择视图";
+			productName = "_UIPickerView 选择视图";
+			productReference = 472DF18C211BD6EB00734656 /* _UIPickerView 选择视图.app */;
+			productType = "com.apple.product-type.application";
+		};
+		472DF1AA211BE62E00734656 /* NSUserDefaults 本地化全局类 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 472DF1BE211BE62F00734656 /* Build configuration list for PBXNativeTarget "NSUserDefaults 本地化全局类" */;
+			buildPhases = (
+				472DF1A7211BE62E00734656 /* Sources */,
+				472DF1A8211BE62E00734656 /* Frameworks */,
+				472DF1A9211BE62E00734656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSUserDefaults 本地化全局类";
+			productName = "NSUserDefaults 本地化全局类";
+			productReference = 472DF1AB211BE62E00734656 /* NSUserDefaults 本地化全局类.app */;
+			productType = "com.apple.product-type.application";
+		};
 		475A318A211A9DAD00CD5EB9 /* 视图布局 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 475A31A0211A9DAE00CD5EB9 /* Build configuration list for PBXNativeTarget "视图布局" */;
@@ -1332,6 +1454,12 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = gvitech;
 				TargetAttributes = {
+					472DF18B211BD6EB00734656 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					472DF1AA211BE62E00734656 = {
+						CreatedOnToolsVersion = 9.3;
+					};
 					475A318A211A9DAD00CD5EB9 = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -1431,11 +1559,35 @@
 				475A318A211A9DAD00CD5EB9 /* 视图布局 */,
 				475A31C4211ABD9E00CD5EB9 /* _UINavigationController 导航控制器 */,
 				475A31E7211ADCC500CD5EB9 /* _UITabBarController 分栏控制器 */,
+				472DF18B211BD6EB00734656 /* _UIPickerView 选择视图 */,
+				472DF1AA211BE62E00734656 /* NSUserDefaults 本地化全局类 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		472DF18A211BD6EB00734656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472DF1A6211BD79D00734656 /* pickerView.xib in Resources */,
+				472DF19B211BD6EF00734656 /* LaunchScreen.storyboard in Resources */,
+				472DF198211BD6EF00734656 /* Assets.xcassets in Resources */,
+				472DF196211BD6EB00734656 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472DF1A9211BE62E00734656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472DF1BA211BE62F00734656 /* LaunchScreen.storyboard in Resources */,
+				472DF1C5211BE67400734656 /* NSUserDef.xib in Resources */,
+				472DF1B7211BE62F00734656 /* Assets.xcassets in Resources */,
+				472DF1B5211BE62E00734656 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		475A3189211A9DAD00CD5EB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1657,6 +1809,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		472DF188211BD6EB00734656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472DF1A5211BD79D00734656 /* pickerView.m in Sources */,
+				472DF19E211BD6EF00734656 /* main.m in Sources */,
+				472DF190211BD6EB00734656 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472DF1A7211BE62E00734656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472DF1BD211BE62F00734656 /* main.m in Sources */,
+				472DF1C4211BE67400734656 /* NSUserDef.m in Sources */,
+				472DF1AF211BE62E00734656 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		475A3187211A9DAD00CD5EB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1878,6 +2050,38 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		472DF194211BD6EB00734656 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				472DF195211BD6EB00734656 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		472DF199211BD6EF00734656 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				472DF19A211BD6EF00734656 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		472DF1B3211BE62E00734656 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				472DF1B4211BE62E00734656 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		472DF1B8211BE62F00734656 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				472DF1B9211BE62F00734656 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		475A3193211A9DAD00CD5EB9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -2217,6 +2421,74 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		472DF1A0211BD6EF00734656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UIPickerView 选择视图/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UIPickerView-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		472DF1A1211BD6EF00734656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "_UIPickerView 选择视图/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UIPickerView-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		472DF1BF211BE62F00734656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "NSUserDefaults 本地化全局类/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.NSUserDefaults-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		472DF1C0211BE62F00734656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "NSUserDefaults 本地化全局类/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.NSUserDefaults-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		475A319E211A9DAE00CD5EB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3046,6 +3318,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		472DF19F211BD6EF00734656 /* Build configuration list for PBXNativeTarget "_UIPickerView 选择视图" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472DF1A0211BD6EF00734656 /* Debug */,
+				472DF1A1211BD6EF00734656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		472DF1BE211BE62F00734656 /* Build configuration list for PBXNativeTarget "NSUserDefaults 本地化全局类" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472DF1BF211BE62F00734656 /* Debug */,
+				472DF1C0211BE62F00734656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		475A31A0211A9DAE00CD5EB9 /* Build configuration list for PBXNativeTarget "视图布局" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
