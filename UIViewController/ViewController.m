@@ -29,7 +29,6 @@
 //第一次加载此视图，只调用一次
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     self.view.backgroundColor = [UIColor orangeColor];
 }
 

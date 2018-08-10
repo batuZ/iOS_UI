@@ -17,7 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Nav_1";
-    self.view.backgroundColor = [UIColor orangeColor];
+    UIImageView* iview = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"/Users/Batu/MyData/OC/iOS_UI/images/timg2.jpg"]];
+    iview.frame = self.view.bounds;
+    [self.view addSubview:iview];
     
     //导航栏按钮
     UIBarButtonItem* subBtn_1 = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFastForward target:self action:@selector(BtnPress)];

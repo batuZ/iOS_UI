@@ -13,13 +13,27 @@
 @end
 
 @implementation navRoot
-
+-(void) setAnima{
+    //创建动画对象
+    CATransition* cat = [CATransition animation];
+    //设置动画时长
+    cat.duration = 1;
+    //设置动画类型
+    cat.type = @"cube";// moveli,revela,fade(default),pageCurl,pageUnCurl,suckEffect,rippleEffect,oglFlip
+    //设置动动方向
+    cat.subtype = kCATransitionFromLeft;
+    //设置运动状态
+    cat.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
+    
+    [self.navigationController.view.layer addAnimation:cat forKey:nil];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     self.title = @"navRoot";
-    self.view.backgroundColor = [UIColor blueColor];
-   
+    UIImageView* iview = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"/Users/Batu/MyData/OC/iOS_UI/images/timg1.jpg"]];
+    iview.frame = self.view.bounds;
+    [self.view addSubview:iview];
     //导航栏右侧按钮
     UIBarButtonItem* barBtn = [[UIBarButtonItem alloc]initWithTitle:@"next" style:UIBarButtonItemStylePlain target:self action:@selector(barBtnPress)];
     
@@ -28,6 +42,8 @@
     
     //左侧按钮 默认为返回，如果指定了按钮，则没有这个默认按钮了
     //self.navigationItem.leftBarButtonItem = barBtn;
+    
+    [self setAnima];
 }
 
 -(void)barBtnPress{

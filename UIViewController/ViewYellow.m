@@ -13,14 +13,47 @@
 @end
 
 @implementation ViewYellow
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+//UIView动画
+-(void)animations{
+    //开始动画, begin / commit可以嵌套
+    [UIView beginAnimations:@"animaName" context:nil];
+    //设置动画时长,秒
+    [UIView setAnimationDuration:1];
+    //设置延迟开始时长，秒
+    [UIView setAnimationDelay:0];
+    //设置动画代理对象
+    [UIView setAnimationDelegate:self];
+    //动画结束Action
+    [UIView setAnimationDidStopSelector:@selector(animaStoped:)];
+    //设置动作状态,线性运动（加速，减速....）
+    [UIView setAnimationCurve:UIViewAnimationCurveLinear];
     
+    //动画内容
+    bt.frame = CGRectMake(50, 300, 120, 50);
+    
+    //提交动画
+    [UIView commitAnimations];
+}
+-(void)animaStoped:(NSString*)str{
+    NSLog(@"%@",str);//animaName
+}
+
+
+
+
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor yellowColor];
+    bt = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    bt.frame = CGRectMake(50, 50, 120, 50);
+    [bt setTitle:@"testtest" forState:UIControlStateNormal];
+    [bt addTarget:self action:@selector(animations) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:bt];
 }
 
 - (void)didReceiveMemoryWarning {

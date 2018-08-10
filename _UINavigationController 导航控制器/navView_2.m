@@ -17,7 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Nav_2";
-    self.view.backgroundColor = [UIColor purpleColor];
+    UIImageView* iview = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"/Users/Batu/MyData/OC/iOS_UI/images/timg3.jpg"]];
+    iview.frame = self.view.bounds;
+    [self.view addSubview:iview];
+    
+    //做一个返回根的按钮
     UIBarButtonItem* bt = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(btPress)];
     self.navigationItem.rightBarButtonItem = bt;
     

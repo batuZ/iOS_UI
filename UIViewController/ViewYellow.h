@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewYellow : UIViewController
-
+{
+    UIButton* bt;
+}
 @end
