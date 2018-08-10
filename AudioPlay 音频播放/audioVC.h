@@ -17,4 +17,6 @@
     NSTimer* _timer;
 }
 @property (weak, nonatomic) IBOutlet UISlider *progressItm;
+@property (weak, nonatomic) IBOutlet UISlider *voltem;
+
 @end

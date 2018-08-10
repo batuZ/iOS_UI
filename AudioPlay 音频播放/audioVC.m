@@ -13,15 +13,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    
     //声音地址,本地文件模拟URL
-    //NSURL* url = [NSURL fileURLWithPath:@""];
-    NSURL* url = [NSURL URLWithString:@""];
+    NSURL* url = [NSURL fileURLWithPath:@"/Users/Batu/Music/Mato Grosso - The Last Of The Mohicans.mp3"];
+    //NSURL* url = [NSURL URLWithString:@""];
     //创建播放器
     _player = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:nil];
     
@@ -34,6 +28,7 @@
     //设置音量
     _player.volume = 0.5;
 }
+
 
 - (IBAction)playBtnPress:(id)sender {
     [_player play];
@@ -59,6 +54,15 @@
     _player.volume = sender.value;
     NSLog(@"音量：%f",sender.value);
 }
+
+//静音
+- (IBAction)jingyin:(UISwitch *)sender {
+    if(sender.on)
+        _player.volume=0;
+    else
+        _player.volume=_voltem.value;
+}
+
 //进度及控制
 - (IBAction)progressChange:(UISlider *)sender {
     _player.currentTime = _player.duration*sender.value;

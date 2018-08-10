@@ -40,8 +40,6 @@
 		472DF232211C1A4500734656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472DF231211C1A4500734656 /* Assets.xcassets */; };
 		472DF235211C1A4500734656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472DF233211C1A4500734656 /* LaunchScreen.storyboard */; };
 		472DF238211C1A4500734656 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF237211C1A4500734656 /* main.m */; };
-		472DF23E211C1E3500734656 /* testJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 472DF23C211C1E3500734656 /* testJSON.json */; };
-		472DF23F211C1E3500734656 /* testXML.xml in Resources */ = {isa = PBXBuildFile; fileRef = 472DF23D211C1E3500734656 /* testXML.xml */; };
 		472DF28B211C39A600734656 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF28A211C39A600734656 /* AppDelegate.m */; };
 		472DF291211C39A600734656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472DF28F211C39A600734656 /* Main.storyboard */; };
 		472DF293211C39A900734656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472DF292211C39A900734656 /* Assets.xcassets */; };
@@ -49,6 +47,34 @@
 		472DF299211C39A900734656 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF298211C39A900734656 /* main.m */; };
 		472DF2A0211C39E500734656 /* audioVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF29E211C39E500734656 /* audioVC.m */; };
 		472DF2A1211C39E500734656 /* audioVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 472DF29F211C39E500734656 /* audioVC.xib */; };
+		472DF2AA211D22AB00734656 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF2A9211D22AB00734656 /* AppDelegate.m */; };
+		472DF2B0211D22AB00734656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472DF2AE211D22AB00734656 /* Main.storyboard */; };
+		472DF2B2211D22AC00734656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472DF2B1211D22AC00734656 /* Assets.xcassets */; };
+		472DF2B5211D22AC00734656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472DF2B3211D22AC00734656 /* LaunchScreen.storyboard */; };
+		472DF2B8211D22AC00734656 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF2B7211D22AC00734656 /* main.m */; };
+		472DF2BE211D230300734656 /* MoviePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF2BD211D230300734656 /* MoviePlayer.m */; };
+		472DF2C0211D25FE00734656 /* MoviePlayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 472DF2BF211D25FE00734656 /* MoviePlayer.xib */; };
+		472DF2C9211D32B700734656 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF2C8211D32B700734656 /* AppDelegate.m */; };
+		472DF2CF211D32B700734656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472DF2CD211D32B700734656 /* Main.storyboard */; };
+		472DF2D1211D32B800734656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472DF2D0211D32B800734656 /* Assets.xcassets */; };
+		472DF2D4211D32B800734656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472DF2D2211D32B800734656 /* LaunchScreen.storyboard */; };
+		472DF2D7211D32B800734656 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF2D6211D32B800734656 /* main.m */; };
+		472DF2E3211D34B400734656 /* My_connect.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF2E1211D34B400734656 /* My_connect.m */; };
+		472DF2E4211D34B400734656 /* My_connect.xib in Resources */ = {isa = PBXBuildFile; fileRef = 472DF2E2211D34B400734656 /* My_connect.xib */; };
+		472DF2ED211D3D3B00734656 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF2EC211D3D3B00734656 /* AppDelegate.m */; };
+		472DF2F0211D3D3B00734656 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF2EF211D3D3B00734656 /* ViewController.m */; };
+		472DF2F3211D3D3B00734656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472DF2F1211D3D3B00734656 /* Main.storyboard */; };
+		472DF2F5211D3D3B00734656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472DF2F4211D3D3B00734656 /* Assets.xcassets */; };
+		472DF2F8211D3D3B00734656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472DF2F6211D3D3B00734656 /* LaunchScreen.storyboard */; };
+		472DF2FB211D3D3C00734656 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF2FA211D3D3C00734656 /* main.m */; };
+		472DF300211D420E00734656 /* testXML.xml in Resources */ = {isa = PBXBuildFile; fileRef = 472DF2FF211D420D00734656 /* testXML.xml */; };
+		472DF302211D421E00734656 /* testJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 472DF301211D421E00734656 /* testJSON.json */; };
+		472DF30B211D42DA00734656 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF30A211D42DA00734656 /* AppDelegate.m */; };
+		472DF30E211D42DA00734656 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF30D211D42DA00734656 /* ViewController.m */; };
+		472DF311211D42DA00734656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472DF30F211D42DA00734656 /* Main.storyboard */; };
+		472DF313211D42DC00734656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472DF312211D42DC00734656 /* Assets.xcassets */; };
+		472DF316211D42DC00734656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472DF314211D42DC00734656 /* LaunchScreen.storyboard */; };
+		472DF319211D42DC00734656 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 472DF318211D42DC00734656 /* main.m */; };
 		475A318F211A9DAD00CD5EB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A318E211A9DAD00CD5EB9 /* AppDelegate.m */; };
 		475A3192211A9DAD00CD5EB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A3191211A9DAD00CD5EB9 /* ViewController.m */; };
 		475A3195211A9DAD00CD5EB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475A3193211A9DAD00CD5EB9 /* Main.storyboard */; };
@@ -237,8 +263,6 @@
 		472DF234211C1A4500734656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		472DF236211C1A4500734656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		472DF237211C1A4500734656 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		472DF23C211C1E3500734656 /* testJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = testJSON.json; path = ../../../../Downloads/testJSON.json; sourceTree = "<group>"; };
-		472DF23D211C1E3500734656 /* testXML.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = testXML.xml; path = ../../../../Downloads/testXML.xml; sourceTree = "<group>"; };
 		472DF287211C39A600734656 /* AudioPlay 音频播放.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AudioPlay 音频播放.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		472DF289211C39A600734656 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		472DF28A211C39A600734656 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -250,6 +274,50 @@
 		472DF29D211C39E500734656 /* audioVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = audioVC.h; sourceTree = "<group>"; };
 		472DF29E211C39E500734656 /* audioVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = audioVC.m; sourceTree = "<group>"; };
 		472DF29F211C39E500734656 /* audioVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = audioVC.xib; sourceTree = "<group>"; };
+		472DF2A6211D22AB00734656 /* MPMoviePlayer 视频播放.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MPMoviePlayer 视频播放.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		472DF2A8211D22AB00734656 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		472DF2A9211D22AB00734656 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		472DF2AF211D22AB00734656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		472DF2B1211D22AC00734656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		472DF2B4211D22AC00734656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		472DF2B6211D22AC00734656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		472DF2B7211D22AC00734656 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		472DF2BC211D230300734656 /* MoviePlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoviePlayer.h; sourceTree = "<group>"; };
+		472DF2BD211D230300734656 /* MoviePlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviePlayer.m; sourceTree = "<group>"; };
+		472DF2BF211D25FE00734656 /* MoviePlayer.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviePlayer.xib; sourceTree = "<group>"; };
+		472DF2C5211D32B700734656 /* NSConnect 网络连接.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSConnect 网络连接.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		472DF2C7211D32B700734656 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		472DF2C8211D32B700734656 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		472DF2CE211D32B700734656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		472DF2D0211D32B800734656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		472DF2D3211D32B800734656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		472DF2D5211D32B800734656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		472DF2D6211D32B800734656 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		472DF2E0211D34B400734656 /* My_connect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = My_connect.h; sourceTree = "<group>"; };
+		472DF2E1211D34B400734656 /* My_connect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_connect.m; sourceTree = "<group>"; };
+		472DF2E2211D34B400734656 /* My_connect.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = My_connect.xib; sourceTree = "<group>"; };
+		472DF2E9211D3D3B00734656 /* NSThread 多线程.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSThread 多线程.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		472DF2EB211D3D3B00734656 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		472DF2EC211D3D3B00734656 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		472DF2EE211D3D3B00734656 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		472DF2EF211D3D3B00734656 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		472DF2F2211D3D3B00734656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		472DF2F4211D3D3B00734656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		472DF2F7211D3D3B00734656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		472DF2F9211D3D3C00734656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		472DF2FA211D3D3C00734656 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		472DF2FF211D420D00734656 /* testXML.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = testXML.xml; sourceTree = "<group>"; };
+		472DF301211D421E00734656 /* testJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testJSON.json; sourceTree = "<group>"; };
+		472DF307211D42DA00734656 /* NSOperation 多任务.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSOperation 多任务.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		472DF309211D42DA00734656 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		472DF30A211D42DA00734656 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		472DF30C211D42DA00734656 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		472DF30D211D42DA00734656 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		472DF310211D42DA00734656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		472DF312211D42DC00734656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		472DF315211D42DC00734656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		472DF317211D42DC00734656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		472DF318211D42DC00734656 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		475A318B211A9DAD00CD5EB9 /* 视图布局.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "视图布局.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		475A318D211A9DAD00CD5EB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		475A318E211A9DAD00CD5EB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -516,6 +584,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		472DF2A3211D22AB00734656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472DF2C2211D32B700734656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472DF2E6211D3D3B00734656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472DF304211D42DA00734656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		475A3188211A9DAD00CD5EB9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -669,8 +765,8 @@
 		472DF17B211BD51A00734656 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				472DF23C211C1E3500734656 /* testJSON.json */,
-				472DF23D211C1E3500734656 /* testXML.xml */,
+				472DF301211D421E00734656 /* testJSON.json */,
+				472DF2FF211D420D00734656 /* testXML.xml */,
 				47DAFAA1211701030047E910 /* buImg.png */,
 				472DF17C211BD51A00734656 /* timg3.jpg */,
 				472DF17D211BD51A00734656 /* timg2.jpg */,
@@ -764,6 +860,72 @@
 				472DF29F211C39E500734656 /* audioVC.xib */,
 			);
 			path = "AudioPlay 音频播放";
+			sourceTree = "<group>";
+		};
+		472DF2A7211D22AB00734656 /* MPMoviePlayer 视频播放 */ = {
+			isa = PBXGroup;
+			children = (
+				472DF2A8211D22AB00734656 /* AppDelegate.h */,
+				472DF2A9211D22AB00734656 /* AppDelegate.m */,
+				472DF2AE211D22AB00734656 /* Main.storyboard */,
+				472DF2B1211D22AC00734656 /* Assets.xcassets */,
+				472DF2B3211D22AC00734656 /* LaunchScreen.storyboard */,
+				472DF2B6211D22AC00734656 /* Info.plist */,
+				472DF2B7211D22AC00734656 /* main.m */,
+				472DF2BC211D230300734656 /* MoviePlayer.h */,
+				472DF2BD211D230300734656 /* MoviePlayer.m */,
+				472DF2BF211D25FE00734656 /* MoviePlayer.xib */,
+			);
+			path = "MPMoviePlayer 视频播放";
+			sourceTree = "<group>";
+		};
+		472DF2C6211D32B700734656 /* NSConnect 网络连接 */ = {
+			isa = PBXGroup;
+			children = (
+				472DF2C7211D32B700734656 /* AppDelegate.h */,
+				472DF2C8211D32B700734656 /* AppDelegate.m */,
+				472DF2CD211D32B700734656 /* Main.storyboard */,
+				472DF2D0211D32B800734656 /* Assets.xcassets */,
+				472DF2D2211D32B800734656 /* LaunchScreen.storyboard */,
+				472DF2D5211D32B800734656 /* Info.plist */,
+				472DF2D6211D32B800734656 /* main.m */,
+				472DF2E0211D34B400734656 /* My_connect.h */,
+				472DF2E1211D34B400734656 /* My_connect.m */,
+				472DF2E2211D34B400734656 /* My_connect.xib */,
+			);
+			path = "NSConnect 网络连接";
+			sourceTree = "<group>";
+		};
+		472DF2EA211D3D3B00734656 /* NSThread 多线程 */ = {
+			isa = PBXGroup;
+			children = (
+				472DF2EB211D3D3B00734656 /* AppDelegate.h */,
+				472DF2EC211D3D3B00734656 /* AppDelegate.m */,
+				472DF2EE211D3D3B00734656 /* ViewController.h */,
+				472DF2EF211D3D3B00734656 /* ViewController.m */,
+				472DF2F1211D3D3B00734656 /* Main.storyboard */,
+				472DF2F4211D3D3B00734656 /* Assets.xcassets */,
+				472DF2F6211D3D3B00734656 /* LaunchScreen.storyboard */,
+				472DF2F9211D3D3C00734656 /* Info.plist */,
+				472DF2FA211D3D3C00734656 /* main.m */,
+			);
+			path = "NSThread 多线程";
+			sourceTree = "<group>";
+		};
+		472DF308211D42DA00734656 /* NSOperation 多任务 */ = {
+			isa = PBXGroup;
+			children = (
+				472DF309211D42DA00734656 /* AppDelegate.h */,
+				472DF30A211D42DA00734656 /* AppDelegate.m */,
+				472DF30C211D42DA00734656 /* ViewController.h */,
+				472DF30D211D42DA00734656 /* ViewController.m */,
+				472DF30F211D42DA00734656 /* Main.storyboard */,
+				472DF312211D42DC00734656 /* Assets.xcassets */,
+				472DF314211D42DC00734656 /* LaunchScreen.storyboard */,
+				472DF317211D42DC00734656 /* Info.plist */,
+				472DF318211D42DC00734656 /* main.m */,
+			);
+			path = "NSOperation 多任务";
 			sourceTree = "<group>";
 		};
 		475A318C211A9DAD00CD5EB9 /* 视图布局 */ = {
@@ -1039,8 +1201,8 @@
 		47DAF9852115CF190047E910 = {
 			isa = PBXGroup;
 			children = (
-				472DF17B211BD51A00734656 /* images */,
 				47DAF9A72115D0550047E910 /* README.md */,
+				472DF17B211BD51A00734656 /* images */,
 				47DAF9902115CF190047E910 /* iOS_UI */,
 				47DAF9AE2115D3DC0047E910 /* _UILable */,
 				47DAFA182115DD6E0047E910 /* _UIButton */,
@@ -1060,12 +1222,16 @@
 				47DAFA892116F2BA0047E910 /* UIViewController */,
 				47DAFAA8211703970047E910 /* NSTimer 定时器 */,
 				472DF1AC211BE62E00734656 /* NSUserDefaults 本地化全局类 */,
+				472DF2C6211D32B700734656 /* NSConnect 网络连接 */,
+				472DF2EA211D3D3B00734656 /* NSThread 多线程 */,
+				472DF308211D42DA00734656 /* NSOperation 多任务 */,
 				4773C4C921198976006DA08C /* UITouch 点击事件 */,
 				4773C4E321199226006DA08C /* UIGesture 点击手势 */,
 				4773C4FD21199B4D006DA08C /* UIGesture 旋转缩放手势 */,
 				4773C5172119A315006DA08C /* UIGesture 平移-滑动-长按手势 */,
 				472DF227211C1A4200734656 /* JSON 数据解析 */,
 				472DF288211C39A600734656 /* AudioPlay 音频播放 */,
+				472DF2A7211D22AB00734656 /* MPMoviePlayer 视频播放 */,
 				475A318C211A9DAD00CD5EB9 /* 视图布局 */,
 				47DAF98F2115CF190047E910 /* Products */,
 			);
@@ -1100,6 +1266,10 @@
 				472DF1CA211BEC7700734656 /* _UITableView 列表视图.app */,
 				472DF226211C1A4200734656 /* JSON 数据解析.app */,
 				472DF287211C39A600734656 /* AudioPlay 音频播放.app */,
+				472DF2A6211D22AB00734656 /* MPMoviePlayer 视频播放.app */,
+				472DF2C5211D32B700734656 /* NSConnect 网络连接.app */,
+				472DF2E9211D3D3B00734656 /* NSThread 多线程.app */,
+				472DF307211D42DA00734656 /* NSOperation 多任务.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1272,6 +1442,74 @@
 			name = "AudioPlay 音频播放";
 			productName = "AudioPlay 音频播放";
 			productReference = 472DF287211C39A600734656 /* AudioPlay 音频播放.app */;
+			productType = "com.apple.product-type.application";
+		};
+		472DF2A5211D22AB00734656 /* MPMoviePlayer 视频播放 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 472DF2B9211D22AC00734656 /* Build configuration list for PBXNativeTarget "MPMoviePlayer 视频播放" */;
+			buildPhases = (
+				472DF2A2211D22AB00734656 /* Sources */,
+				472DF2A3211D22AB00734656 /* Frameworks */,
+				472DF2A4211D22AB00734656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MPMoviePlayer 视频播放";
+			productName = "MPMoviePlayer 视频播放";
+			productReference = 472DF2A6211D22AB00734656 /* MPMoviePlayer 视频播放.app */;
+			productType = "com.apple.product-type.application";
+		};
+		472DF2C4211D32B700734656 /* NSConnect 网络连接 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 472DF2D8211D32B800734656 /* Build configuration list for PBXNativeTarget "NSConnect 网络连接" */;
+			buildPhases = (
+				472DF2C1211D32B700734656 /* Sources */,
+				472DF2C2211D32B700734656 /* Frameworks */,
+				472DF2C3211D32B700734656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSConnect 网络连接";
+			productName = "NSConnect 网络连接";
+			productReference = 472DF2C5211D32B700734656 /* NSConnect 网络连接.app */;
+			productType = "com.apple.product-type.application";
+		};
+		472DF2E8211D3D3B00734656 /* NSThread 多线程 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 472DF2FC211D3D3C00734656 /* Build configuration list for PBXNativeTarget "NSThread 多线程" */;
+			buildPhases = (
+				472DF2E5211D3D3B00734656 /* Sources */,
+				472DF2E6211D3D3B00734656 /* Frameworks */,
+				472DF2E7211D3D3B00734656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSThread 多线程";
+			productName = "NSThread 多线程";
+			productReference = 472DF2E9211D3D3B00734656 /* NSThread 多线程.app */;
+			productType = "com.apple.product-type.application";
+		};
+		472DF306211D42DA00734656 /* NSOperation 多任务 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 472DF31A211D42DC00734656 /* Build configuration list for PBXNativeTarget "NSOperation 多任务" */;
+			buildPhases = (
+				472DF303211D42DA00734656 /* Sources */,
+				472DF304211D42DA00734656 /* Frameworks */,
+				472DF305211D42DA00734656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSOperation 多任务";
+			productName = "NSOperation 多任务";
+			productReference = 472DF307211D42DA00734656 /* NSOperation 多任务.app */;
 			productType = "com.apple.product-type.application";
 		};
 		475A318A211A9DAD00CD5EB9 /* 视图布局 */ = {
@@ -1655,6 +1893,18 @@
 					472DF286211C39A600734656 = {
 						CreatedOnToolsVersion = 9.3;
 					};
+					472DF2A5211D22AB00734656 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					472DF2C4211D32B700734656 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					472DF2E8211D3D3B00734656 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					472DF306211D42DA00734656 = {
+						CreatedOnToolsVersion = 9.3;
+					};
 					475A318A211A9DAD00CD5EB9 = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -1759,6 +2009,10 @@
 				472DF1C9211BEC7700734656 /* _UITableView 列表视图 */,
 				472DF225211C1A4200734656 /* JSON 数据解析 */,
 				472DF286211C39A600734656 /* AudioPlay 音频播放 */,
+				472DF2A5211D22AB00734656 /* MPMoviePlayer 视频播放 */,
+				472DF2C4211D32B700734656 /* NSConnect 网络连接 */,
+				472DF2E8211D3D3B00734656 /* NSThread 多线程 */,
+				472DF306211D42DA00734656 /* NSOperation 多任务 */,
 			);
 		};
 /* End PBXProject section */
@@ -1815,6 +2069,50 @@
 				472DF293211C39A900734656 /* Assets.xcassets in Resources */,
 				472DF291211C39A600734656 /* Main.storyboard in Resources */,
 				472DF2A1211C39E500734656 /* audioVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472DF2A4211D22AB00734656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472DF2B5211D22AC00734656 /* LaunchScreen.storyboard in Resources */,
+				472DF2C0211D25FE00734656 /* MoviePlayer.xib in Resources */,
+				472DF2B2211D22AC00734656 /* Assets.xcassets in Resources */,
+				472DF2B0211D22AB00734656 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472DF2C3211D32B700734656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472DF300211D420E00734656 /* testXML.xml in Resources */,
+				472DF2D4211D32B800734656 /* LaunchScreen.storyboard in Resources */,
+				472DF2D1211D32B800734656 /* Assets.xcassets in Resources */,
+				472DF2E4211D34B400734656 /* My_connect.xib in Resources */,
+				472DF2CF211D32B700734656 /* Main.storyboard in Resources */,
+				472DF302211D421E00734656 /* testJSON.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472DF2E7211D3D3B00734656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472DF2F8211D3D3B00734656 /* LaunchScreen.storyboard in Resources */,
+				472DF2F5211D3D3B00734656 /* Assets.xcassets in Resources */,
+				472DF2F3211D3D3B00734656 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472DF305211D42DA00734656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472DF316211D42DC00734656 /* LaunchScreen.storyboard in Resources */,
+				472DF313211D42DC00734656 /* Assets.xcassets in Resources */,
+				472DF311211D42DA00734656 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1985,12 +2283,10 @@
 				472DF185211BD51A00734656 /* timg5.jpg in Resources */,
 				472DF182211BD51A00734656 /* timg3.jpg in Resources */,
 				47DAF99E2115CF1A0047E910 /* LaunchScreen.storyboard in Resources */,
-				472DF23F211C1E3500734656 /* testXML.xml in Resources */,
 				47DAF99B2115CF1A0047E910 /* Assets.xcassets in Resources */,
 				472DF186211BD51A00734656 /* timg4.jpg in Resources */,
 				472DF183211BD51A00734656 /* timg2.jpg in Resources */,
 				47DAF9A82115D0550047E910 /* README.md in Resources */,
-				472DF23E211C1E3500734656 /* testJSON.json in Resources */,
 				47DAF9992115CF1A0047E910 /* Main.storyboard in Resources */,
 				472DF184211BD51A00734656 /* timg1.jpg in Resources */,
 				472DF187211BD51A00734656 /* timg6.jpg in Resources */,
@@ -2088,6 +2384,46 @@
 				472DF299211C39A900734656 /* main.m in Sources */,
 				472DF2A0211C39E500734656 /* audioVC.m in Sources */,
 				472DF28B211C39A600734656 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472DF2A2211D22AB00734656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472DF2BE211D230300734656 /* MoviePlayer.m in Sources */,
+				472DF2B8211D22AC00734656 /* main.m in Sources */,
+				472DF2AA211D22AB00734656 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472DF2C1211D32B700734656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472DF2D7211D32B800734656 /* main.m in Sources */,
+				472DF2E3211D34B400734656 /* My_connect.m in Sources */,
+				472DF2C9211D32B700734656 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472DF2E5211D3D3B00734656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472DF2F0211D3D3B00734656 /* ViewController.m in Sources */,
+				472DF2FB211D3D3C00734656 /* main.m in Sources */,
+				472DF2ED211D3D3B00734656 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472DF303211D42DA00734656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472DF30E211D42DA00734656 /* ViewController.m in Sources */,
+				472DF319211D42DC00734656 /* main.m in Sources */,
+				472DF30B211D42DA00734656 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2388,6 +2724,70 @@
 			isa = PBXVariantGroup;
 			children = (
 				472DF295211C39A900734656 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		472DF2AE211D22AB00734656 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				472DF2AF211D22AB00734656 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		472DF2B3211D22AC00734656 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				472DF2B4211D22AC00734656 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		472DF2CD211D32B700734656 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				472DF2CE211D32B700734656 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		472DF2D2211D32B800734656 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				472DF2D3211D32B800734656 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		472DF2F1211D3D3B00734656 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				472DF2F2211D3D3B00734656 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		472DF2F6211D3D3B00734656 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				472DF2F7211D3D3B00734656 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		472DF30F211D42DA00734656 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				472DF310211D42DA00734656 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		472DF314211D42DC00734656 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				472DF315211D42DC00734656 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -2896,6 +3296,144 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "BT.AudioPlay-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		472DF2BA211D22AC00734656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "MPMoviePlayer 视频播放/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.MPMoviePlayer-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		472DF2BB211D22AC00734656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "MPMoviePlayer 视频播放/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.MPMoviePlayer-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		472DF2D9211D32B800734656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "NSConnect 网络连接/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.NSConnect-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		472DF2DA211D32B800734656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "NSConnect 网络连接/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.NSConnect-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		472DF2FD211D3D3C00734656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "NSThread 多线程/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.NSThread----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		472DF2FE211D3D3C00734656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "NSThread 多线程/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.NSThread----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		472DF31B211D42DC00734656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "NSOperation 多任务/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.NSOperation----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		472DF31C211D42DC00734656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "NSOperation 多任务/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.NSOperation----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3771,6 +4309,42 @@
 			buildConfigurations = (
 				472DF29B211C39A900734656 /* Debug */,
 				472DF29C211C39A900734656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		472DF2B9211D22AC00734656 /* Build configuration list for PBXNativeTarget "MPMoviePlayer 视频播放" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472DF2BA211D22AC00734656 /* Debug */,
+				472DF2BB211D22AC00734656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		472DF2D8211D32B800734656 /* Build configuration list for PBXNativeTarget "NSConnect 网络连接" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472DF2D9211D32B800734656 /* Debug */,
+				472DF2DA211D32B800734656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		472DF2FC211D3D3C00734656 /* Build configuration list for PBXNativeTarget "NSThread 多线程" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472DF2FD211D3D3C00734656 /* Debug */,
+				472DF2FE211D3D3C00734656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		472DF31A211D42DC00734656 /* Build configuration list for PBXNativeTarget "NSOperation 多任务" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472DF31B211D42DC00734656 /* Debug */,
+				472DF31C211D42DC00734656 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

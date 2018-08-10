@@ -145,7 +145,13 @@ lable.shadowColor        = [UIColor blackColor];
 #### NSUserDefaults 本地化数据的全局类
 #### UITableView 列表视图
 #### AVAudioPlayer 音频播放类
-
+#### MPMoviePlayerViewController 视频播放类
+    设置安全防护
+    NSAppTransportSecurity into info.plist
+    
+#### NSConnect 网络连接
+#### NSThread 多线程
+#### NSOperation 多任务
 ## Cocoapods
         参考网址：https://blog.csdn.net/jiankeufo/article/details/79362660
 
