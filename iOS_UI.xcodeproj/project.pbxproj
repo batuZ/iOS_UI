@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		472CC22C21241DEA00254013 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 472CC22B21241DEA00254013 /* AppDelegate.m */; };
+		472CC22F21241DEA00254013 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 472CC22E21241DEA00254013 /* ViewController.m */; };
+		472CC23221241DEA00254013 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472CC23021241DEA00254013 /* Main.storyboard */; };
+		472CC23421241DEE00254013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472CC23321241DEE00254013 /* Assets.xcassets */; };
+		472CC23721241DEE00254013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472CC23521241DEE00254013 /* LaunchScreen.storyboard */; };
+		472CC23A21241DEE00254013 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 472CC23921241DEE00254013 /* main.m */; };
 		472DF182211BD51A00734656 /* timg3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 472DF17C211BD51A00734656 /* timg3.jpg */; };
 		472DF183211BD51A00734656 /* timg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 472DF17D211BD51A00734656 /* timg2.jpg */; };
 		472DF184211BD51A00734656 /* timg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 472DF17E211BD51A00734656 /* timg1.jpg */; };
@@ -214,6 +220,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		472CC22821241DEA00254013 /* NSURLSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSURLSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		472CC22A21241DEA00254013 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		472CC22B21241DEA00254013 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		472CC22D21241DEA00254013 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		472CC22E21241DEA00254013 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		472CC23121241DEA00254013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		472CC23321241DEE00254013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		472CC23621241DEE00254013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		472CC23821241DEE00254013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		472CC23921241DEE00254013 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		472DF17C211BD51A00734656 /* timg3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg3.jpg; sourceTree = "<group>"; };
 		472DF17D211BD51A00734656 /* timg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg2.jpg; sourceTree = "<group>"; };
 		472DF17E211BD51A00734656 /* timg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg1.jpg; sourceTree = "<group>"; };
@@ -549,6 +565,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		472CC22521241DEA00254013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		472DF189211BD6EB00734656 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -762,6 +785,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		472CC22921241DEA00254013 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				472CC22A21241DEA00254013 /* AppDelegate.h */,
+				472CC22B21241DEA00254013 /* AppDelegate.m */,
+				472CC22D21241DEA00254013 /* ViewController.h */,
+				472CC22E21241DEA00254013 /* ViewController.m */,
+				472CC23021241DEA00254013 /* Main.storyboard */,
+				472CC23321241DEE00254013 /* Assets.xcassets */,
+				472CC23521241DEE00254013 /* LaunchScreen.storyboard */,
+				472CC23821241DEE00254013 /* Info.plist */,
+				472CC23921241DEE00254013 /* main.m */,
+			);
+			path = NSURLSession;
+			sourceTree = "<group>";
+		};
 		472DF17B211BD51A00734656 /* images */ = {
 			isa = PBXGroup;
 			children = (
@@ -1223,6 +1262,7 @@
 				47DAFAA8211703970047E910 /* NSTimer 定时器 */,
 				472DF1AC211BE62E00734656 /* NSUserDefaults 本地化全局类 */,
 				472DF2C6211D32B700734656 /* NSConnect 网络连接 */,
+				472CC22921241DEA00254013 /* NSURLSession */,
 				472DF2EA211D3D3B00734656 /* NSThread 多线程 */,
 				472DF308211D42DA00734656 /* NSOperation 多任务 */,
 				4773C4C921198976006DA08C /* UITouch 点击事件 */,
@@ -1270,6 +1310,7 @@
 				472DF2C5211D32B700734656 /* NSConnect 网络连接.app */,
 				472DF2E9211D3D3B00734656 /* NSThread 多线程.app */,
 				472DF307211D42DA00734656 /* NSOperation 多任务.app */,
+				472CC22821241DEA00254013 /* NSURLSession.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1359,6 +1400,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		472CC22721241DEA00254013 /* NSURLSession */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 472CC23D21241DEE00254013 /* Build configuration list for PBXNativeTarget "NSURLSession" */;
+			buildPhases = (
+				472CC22421241DEA00254013 /* Sources */,
+				472CC22521241DEA00254013 /* Frameworks */,
+				472CC22621241DEA00254013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSURLSession;
+			productName = NSURLSession;
+			productReference = 472CC22821241DEA00254013 /* NSURLSession.app */;
+			productType = "com.apple.product-type.application";
+		};
 		472DF18B211BD6EB00734656 /* _UIPickerView 选择视图 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 472DF19F211BD6EF00734656 /* Build configuration list for PBXNativeTarget "_UIPickerView 选择视图" */;
@@ -1878,6 +1936,9 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = gvitech;
 				TargetAttributes = {
+					472CC22721241DEA00254013 = {
+						CreatedOnToolsVersion = 9.3;
+					};
 					472DF18B211BD6EB00734656 = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -2013,11 +2074,22 @@
 				472DF2C4211D32B700734656 /* NSConnect 网络连接 */,
 				472DF2E8211D3D3B00734656 /* NSThread 多线程 */,
 				472DF306211D42DA00734656 /* NSOperation 多任务 */,
+				472CC22721241DEA00254013 /* NSURLSession */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		472CC22621241DEA00254013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472CC23721241DEE00254013 /* LaunchScreen.storyboard in Resources */,
+				472CC23421241DEE00254013 /* Assets.xcassets in Resources */,
+				472CC23221241DEA00254013 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		472DF18A211BD6EB00734656 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2337,6 +2409,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		472CC22421241DEA00254013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472CC22F21241DEA00254013 /* ViewController.m in Sources */,
+				472CC23A21241DEE00254013 /* main.m in Sources */,
+				472CC22C21241DEA00254013 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		472DF188211BD6EB00734656 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2648,6 +2730,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		472CC23021241DEA00254013 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				472CC23121241DEA00254013 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		472CC23521241DEE00254013 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				472CC23621241DEE00254013 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		472DF194211BD6EB00734656 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -3131,6 +3229,40 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		472CC23B21241DEE00254013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = NSURLSession/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BT.NSURLSession;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		472CC23C21241DEE00254013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = NSURLSession/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BT.NSURLSession;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		472DF1A0211BD6EF00734656 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4268,6 +4400,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		472CC23D21241DEE00254013 /* Build configuration list for PBXNativeTarget "NSURLSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472CC23B21241DEE00254013 /* Debug */,
+				472CC23C21241DEE00254013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		472DF19F211BD6EF00734656 /* Build configuration list for PBXNativeTarget "_UIPickerView 选择视图" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

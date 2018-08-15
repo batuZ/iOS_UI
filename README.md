@@ -150,6 +150,7 @@ lable.shadowColor        = [UIColor blackColor];
     NSAppTransportSecurity into info.plist
     
 #### NSConnect 网络连接
+#### NSURLSession
 #### NSThread 多线程
 #### NSOperation 多任务
 ## Cocoapods
