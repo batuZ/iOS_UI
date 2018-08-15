@@ -161,13 +161,6 @@ totalBytesExpectedToWrite   :(int64_t)totalBytesExpectedToWrite{
 
 
 
-
-
-
-
-
-
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     
