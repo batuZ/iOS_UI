@@ -18,7 +18,7 @@
     [super viewDidLoad];
     
     //把json读进内存
-    NSData* data = [NSData dataWithContentsOfFile:@"/Users/Batu/Downloads/testJSON.json"];
+    NSData* data = [NSData dataWithContentsOfFile:@"/Users/Batu/MyData/OC/iOS_UI/images/testJSON.json"];
    
     //调解析类，把json解析为字典
     NSDictionary* dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
