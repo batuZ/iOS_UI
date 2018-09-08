@@ -217,6 +217,7 @@
 		47DAFAB3211703980047E910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47DAFAB2211703980047E910 /* Assets.xcassets */; };
 		47DAFAB6211703980047E910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DAFAB4211703980047E910 /* LaunchScreen.storyboard */; };
 		47DAFAB9211703980047E910 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DAFAB8211703980047E910 /* main.m */; };
+		47FABE9E2143B9850065DB7E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47FABE9D2143B9850065DB7E /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -562,6 +563,7 @@
 		47DAFAB5211703980047E910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47DAFAB7211703980047E910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47DAFAB8211703980047E910 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47FABE9D2143B9850065DB7E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1240,6 +1242,7 @@
 		47DAF9852115CF190047E910 = {
 			isa = PBXGroup;
 			children = (
+				47FABE9D2143B9850065DB7E /* Default-568h@2x.png */,
 				47DAF9A72115D0550047E910 /* README.md */,
 				472DF17B211BD51A00734656 /* images */,
 				47DAF9902115CF190047E910 /* iOS_UI */,
@@ -2370,6 +2373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47DAF9BC2115D3DD0047E910 /* LaunchScreen.storyboard in Resources */,
+				47FABE9E2143B9850065DB7E /* Default-568h@2x.png in Resources */,
 				47DAF9B92115D3DD0047E910 /* Assets.xcassets in Resources */,
 				47DAF9B72115D3DD0047E910 /* Main.storyboard in Resources */,
 			);
@@ -3410,7 +3414,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "BT.AudioPlay-----";
+				PRODUCT_BUNDLE_IDENTIFIER = BT.MakeSound;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3427,7 +3431,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "BT.AudioPlay-----";
+				PRODUCT_BUNDLE_IDENTIFIER = BT.MakeSound;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

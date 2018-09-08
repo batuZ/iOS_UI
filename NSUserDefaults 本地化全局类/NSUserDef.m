@@ -17,11 +17,17 @@
     [userd setObject:_saveValueTF.text forKey:_saveKeyTF.text];
     _saveValueTF.text = @"";
     _saveKeyTF.text=@"";
+    [userd synchronize];
+    
+    //defualts 转成 字典后遍历
+    for (NSString* key in [userd dictionaryRepresentation]) {
+        NSLog(@"class: %@",[[userd objectForKey:key] class]);
+    }
 }
 - (IBAction)loadBtn:(id)sender {
     _loadValueLable.text = [userd objectForKey:_loadKeyTF.text];
     //移除对象
-    [userd removeObjectForKey:_loadKeyTF.text];
+    //[userd removeObjectForKey:_loadKeyTF.text];
 }
 
 

@@ -11,12 +11,28 @@
 #import <AVFoundation/AVFoundation.h>
 
 @interface audioVC : UIViewController
-<AVAudioPlayerDelegate>
+<AVAudioRecorderDelegate,AVAudioPlayerDelegate>
 {
+    //录音机
+    AVAudioRecorder* _adRecorder;
+    BOOL _isSwitch;
+    int _count;
+    
+    //播放器
     AVAudioPlayer* _player;
+    
+    NSURL *_url;
     NSTimer* _timer;
 }
+//播放进度
 @property (weak, nonatomic) IBOutlet UISlider *progressItm;
+//音量
 @property (weak, nonatomic) IBOutlet UISlider *voltem;
+
+//录音时长
+@property (weak, nonatomic) IBOutlet UILabel *recoderInfo;
+
+//录音按钮
+@property (weak, nonatomic) IBOutlet UIButton *recoderBtn;
 
 @end

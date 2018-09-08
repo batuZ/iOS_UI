@@ -13,6 +13,8 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="audioVC">
             <connections>
                 <outlet property="progressItm" destination="Csw-xZ-dQz" id="VsR-N9-GET"/>
+                <outlet property="recoderBtn" destination="fil-JM-8MG" id="1bb-gM-QBK"/>
+                <outlet property="recoderInfo" destination="C0M-VZ-MpY" id="Csv-cm-goh"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="voltem" destination="ybL-TG-6rh" id="30L-JP-YYp"/>
             </connections>
@@ -23,14 +25,14 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SBy-xT-6QU">
-                    <rect key="frame" x="312" y="171" width="49" height="31"/>
+                    <rect key="frame" x="312" y="415" width="49" height="31"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <connections>
                         <action selector="jingyin:" destination="-1" eventType="valueChanged" id="2Vn-zD-Q6E"/>
                     </connections>
                 </switch>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jM-eg-LTz">
-                    <rect key="frame" x="217" y="281" width="31" height="30"/>
+                    <rect key="frame" x="226" y="563" width="31" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="停止"/>
                     <connections>
@@ -38,7 +40,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xx-xW-nU6">
-                    <rect key="frame" x="121" y="281" width="31" height="30"/>
+                    <rect key="frame" x="118" y="563" width="31" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="暂停"/>
                     <connections>
@@ -46,27 +48,42 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fah-kA-KXX">
-                    <rect key="frame" x="166" y="285" width="43" height="22"/>
+                    <rect key="frame" x="163" y="567" width="43" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="播放"/>
                     <connections>
                         <action selector="playBtnPress:" destination="-1" eventType="touchUpInside" id="EuF-JH-SxP"/>
                     </connections>
                 </button>
-                <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Csw-xZ-dQz">
-                    <rect key="frame" x="14" y="226" width="347" height="30"/>
+                <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Csw-xZ-dQz">
+                    <rect key="frame" x="14" y="468" width="347" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <connections>
                         <action selector="progressChange:" destination="-1" eventType="valueChanged" id="XNY-C8-Ofa"/>
                     </connections>
                 </slider>
                 <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ybL-TG-6rh">
-                    <rect key="frame" x="243" y="405" width="118" height="30"/>
+                    <rect key="frame" x="14" y="505" width="347" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <connections>
                         <action selector="volumeChange:" destination="-1" eventType="valueChanged" id="JPa-ZR-abI"/>
                     </connections>
                 </slider>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fil-JM-8MG">
+                    <rect key="frame" x="52" y="101" width="75" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="录音"/>
+                    <connections>
+                        <action selector="recoderPress:" destination="-1" eventType="touchUpInside" id="CIe-cJ-39n"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0M-VZ-MpY">
+                    <rect key="frame" x="167" y="106" width="149" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="0.94257612273266433" green="1" blue="0.79587325023073552" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
