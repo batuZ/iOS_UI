@@ -223,6 +223,12 @@
 		47FABEC92144B9E30065DB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47FABEC82144B9E30065DB7E /* Assets.xcassets */; };
 		47FABECC2144B9E30065DB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47FABECA2144B9E30065DB7E /* LaunchScreen.storyboard */; };
 		47FABECF2144B9E30065DB7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FABECE2144B9E30065DB7E /* main.m */; };
+		47FABF072144D0A80065DB7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FABF062144D0A80065DB7E /* AppDelegate.m */; };
+		47FABF0F2144D0AA0065DB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47FABF0E2144D0AA0065DB7E /* Assets.xcassets */; };
+		47FABF122144D0AA0065DB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47FABF102144D0AA0065DB7E /* LaunchScreen.storyboard */; };
+		47FABF152144D0AA0065DB7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FABF142144D0AA0065DB7E /* main.m */; };
+		47FABF1B2144D14B0065DB7E /* Root.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FABF1A2144D14B0065DB7E /* Root.m */; };
+		47FABF1E2144D53F0065DB7E /* subView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FABF1D2144D53F0065DB7E /* subView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -578,6 +584,17 @@
 		47FABECB2144B9E30065DB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47FABECD2144B9E30065DB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47FABECE2144B9E30065DB7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47FABF032144D0A80065DB7E /* NSNotificationCenter 通知中心.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSNotificationCenter 通知中心.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47FABF052144D0A80065DB7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47FABF062144D0A80065DB7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47FABF0E2144D0AA0065DB7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47FABF112144D0AA0065DB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47FABF132144D0AA0065DB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47FABF142144D0AA0065DB7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47FABF192144D14B0065DB7E /* Root.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Root.h; sourceTree = "<group>"; };
+		47FABF1A2144D14B0065DB7E /* Root.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Root.m; sourceTree = "<group>"; };
+		47FABF1C2144D53F0065DB7E /* subView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subView.h; sourceTree = "<group>"; };
+		47FABF1D2144D53F0065DB7E /* subView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = subView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -799,6 +816,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		47FABEBA2144B9E00065DB7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47FABF002144D0A80065DB7E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1288,6 +1312,7 @@
 				472CC22921241DEA00254013 /* NSURLSession */,
 				472DF2EA211D3D3B00734656 /* NSThread 多线程 */,
 				472DF308211D42DA00734656 /* NSOperation 多任务 */,
+				47FABF042144D0A80065DB7E /* NSNotificationCenter 通知中心 */,
 				4773C4C921198976006DA08C /* UITouch 点击事件 */,
 				4773C4E321199226006DA08C /* UIGesture 点击手势 */,
 				4773C4FD21199B4D006DA08C /* UIGesture 旋转缩放手势 */,
@@ -1336,6 +1361,7 @@
 				472DF307211D42DA00734656 /* NSOperation 多任务.app */,
 				472CC22821241DEA00254013 /* NSURLSession.app */,
 				47FABEBD2144B9E00065DB7E /* AVAudioSession 音频会话管理.app */,
+				47FABF032144D0A80065DB7E /* NSNotificationCenter 通知中心.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1436,6 +1462,23 @@
 				47FABECE2144B9E30065DB7E /* main.m */,
 			);
 			path = "AVAudioSession 音频会话管理";
+			sourceTree = "<group>";
+		};
+		47FABF042144D0A80065DB7E /* NSNotificationCenter 通知中心 */ = {
+			isa = PBXGroup;
+			children = (
+				47FABF052144D0A80065DB7E /* AppDelegate.h */,
+				47FABF062144D0A80065DB7E /* AppDelegate.m */,
+				47FABF0E2144D0AA0065DB7E /* Assets.xcassets */,
+				47FABF102144D0AA0065DB7E /* LaunchScreen.storyboard */,
+				47FABF132144D0AA0065DB7E /* Info.plist */,
+				47FABF142144D0AA0065DB7E /* main.m */,
+				47FABF192144D14B0065DB7E /* Root.h */,
+				47FABF1A2144D14B0065DB7E /* Root.m */,
+				47FABF1C2144D53F0065DB7E /* subView.h */,
+				47FABF1D2144D53F0065DB7E /* subView.m */,
+			);
+			path = "NSNotificationCenter 通知中心";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1985,6 +2028,23 @@
 			productReference = 47FABEBD2144B9E00065DB7E /* AVAudioSession 音频会话管理.app */;
 			productType = "com.apple.product-type.application";
 		};
+		47FABF022144D0A80065DB7E /* NSNotificationCenter 通知中心 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47FABF182144D0AA0065DB7E /* Build configuration list for PBXNativeTarget "NSNotificationCenter 通知中心" */;
+			buildPhases = (
+				47FABEFF2144D0A80065DB7E /* Sources */,
+				47FABF002144D0A80065DB7E /* Frameworks */,
+				47FABF012144D0A80065DB7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSNotificationCenter 通知中心";
+			productName = "NSNotificationCenter 通知中心";
+			productReference = 47FABF032144D0A80065DB7E /* NSNotificationCenter 通知中心.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2090,6 +2150,9 @@
 					47FABEBC2144B9E00065DB7E = {
 						CreatedOnToolsVersion = 9.3;
 					};
+					47FABF022144D0A80065DB7E = {
+						CreatedOnToolsVersion = 9.3;
+					};
 				};
 			};
 			buildConfigurationList = 47DAF9892115CF190047E910 /* Build configuration list for PBXProject "iOS_UI" */;
@@ -2137,6 +2200,7 @@
 				472DF306211D42DA00734656 /* NSOperation 多任务 */,
 				472CC22721241DEA00254013 /* NSURLSession */,
 				47FABEBC2144B9E00065DB7E /* AVAudioSession 音频会话管理 */,
+				47FABF022144D0A80065DB7E /* NSNotificationCenter 通知中心 */,
 			);
 		};
 /* End PBXProject section */
@@ -2478,6 +2542,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47FABF012144D0A80065DB7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FABF122144D0AA0065DB7E /* LaunchScreen.storyboard in Resources */,
+				47FABF0F2144D0AA0065DB7E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -2806,6 +2879,17 @@
 				47FABEC42144B9E00065DB7E /* ViewController.m in Sources */,
 				47FABECF2144B9E30065DB7E /* main.m in Sources */,
 				47FABEC12144B9E00065DB7E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47FABEFF2144D0A80065DB7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FABF1B2144D14B0065DB7E /* Root.m in Sources */,
+				47FABF1E2144D53F0065DB7E /* subView.m in Sources */,
+				47FABF152144D0AA0065DB7E /* main.m in Sources */,
+				47FABF072144D0A80065DB7E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3320,6 +3404,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				47FABECB2144B9E30065DB7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		47FABF102144D0AA0065DB7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47FABF112144D0AA0065DB7E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -4529,6 +4621,40 @@
 			};
 			name = Release;
 		};
+		47FABF162144D0AA0065DB7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "NSNotificationCenter 通知中心/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.NSNotificationCenter-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47FABF172144D0AA0065DB7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "NSNotificationCenter 通知中心/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.NSNotificationCenter-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -4825,6 +4951,15 @@
 			buildConfigurations = (
 				47FABED12144B9E30065DB7E /* Debug */,
 				47FABED22144B9E30065DB7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47FABF182144D0AA0065DB7E /* Build configuration list for PBXNativeTarget "NSNotificationCenter 通知中心" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47FABF162144D0AA0065DB7E /* Debug */,
+				47FABF172144D0AA0065DB7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
