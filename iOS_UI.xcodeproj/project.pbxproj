@@ -217,7 +217,12 @@
 		47DAFAB3211703980047E910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47DAFAB2211703980047E910 /* Assets.xcassets */; };
 		47DAFAB6211703980047E910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DAFAB4211703980047E910 /* LaunchScreen.storyboard */; };
 		47DAFAB9211703980047E910 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DAFAB8211703980047E910 /* main.m */; };
-		47FABE9E2143B9850065DB7E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47FABE9D2143B9850065DB7E /* Default-568h@2x.png */; };
+		47FABEC12144B9E00065DB7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FABEC02144B9E00065DB7E /* AppDelegate.m */; };
+		47FABEC42144B9E00065DB7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FABEC32144B9E00065DB7E /* ViewController.m */; };
+		47FABEC72144B9E00065DB7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47FABEC52144B9E00065DB7E /* Main.storyboard */; };
+		47FABEC92144B9E30065DB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47FABEC82144B9E30065DB7E /* Assets.xcassets */; };
+		47FABECC2144B9E30065DB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47FABECA2144B9E30065DB7E /* LaunchScreen.storyboard */; };
+		47FABECF2144B9E30065DB7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FABECE2144B9E30065DB7E /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -563,7 +568,16 @@
 		47DAFAB5211703980047E910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47DAFAB7211703980047E910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47DAFAB8211703980047E910 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		47FABE9D2143B9850065DB7E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		47FABEBD2144B9E00065DB7E /* AVAudioSession 音频会话管理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AVAudioSession 音频会话管理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47FABEBF2144B9E00065DB7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47FABEC02144B9E00065DB7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47FABEC22144B9E00065DB7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		47FABEC32144B9E00065DB7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		47FABEC62144B9E00065DB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47FABEC82144B9E30065DB7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47FABECB2144B9E30065DB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47FABECD2144B9E30065DB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47FABECE2144B9E30065DB7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -778,6 +792,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		47DAFAA4211703970047E910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47FABEBA2144B9E00065DB7E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1242,7 +1263,6 @@
 		47DAF9852115CF190047E910 = {
 			isa = PBXGroup;
 			children = (
-				47FABE9D2143B9850065DB7E /* Default-568h@2x.png */,
 				47DAF9A72115D0550047E910 /* README.md */,
 				472DF17B211BD51A00734656 /* images */,
 				47DAF9902115CF190047E910 /* iOS_UI */,
@@ -1275,6 +1295,7 @@
 				472DF227211C1A4200734656 /* JSON 数据解析 */,
 				472DF288211C39A600734656 /* AudioPlay 音频播放 */,
 				472DF2A7211D22AB00734656 /* MPMoviePlayer 视频播放 */,
+				47FABEBE2144B9E00065DB7E /* AVAudioSession 音频会话管理 */,
 				475A318C211A9DAD00CD5EB9 /* 视图布局 */,
 				47DAF98F2115CF190047E910 /* Products */,
 			);
@@ -1314,6 +1335,7 @@
 				472DF2E9211D3D3B00734656 /* NSThread 多线程.app */,
 				472DF307211D42DA00734656 /* NSOperation 多任务.app */,
 				472CC22821241DEA00254013 /* NSURLSession.app */,
+				47FABEBD2144B9E00065DB7E /* AVAudioSession 音频会话管理.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1398,6 +1420,22 @@
 				47DAFAB8211703980047E910 /* main.m */,
 			);
 			path = "NSTimer 定时器";
+			sourceTree = "<group>";
+		};
+		47FABEBE2144B9E00065DB7E /* AVAudioSession 音频会话管理 */ = {
+			isa = PBXGroup;
+			children = (
+				47FABEBF2144B9E00065DB7E /* AppDelegate.h */,
+				47FABEC02144B9E00065DB7E /* AppDelegate.m */,
+				47FABEC22144B9E00065DB7E /* ViewController.h */,
+				47FABEC32144B9E00065DB7E /* ViewController.m */,
+				47FABEC52144B9E00065DB7E /* Main.storyboard */,
+				47FABEC82144B9E30065DB7E /* Assets.xcassets */,
+				47FABECA2144B9E30065DB7E /* LaunchScreen.storyboard */,
+				47FABECD2144B9E30065DB7E /* Info.plist */,
+				47FABECE2144B9E30065DB7E /* main.m */,
+			);
+			path = "AVAudioSession 音频会话管理";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1930,6 +1968,23 @@
 			productReference = 47DAFAA7211703970047E910 /* NSTimer 定时器.app */;
 			productType = "com.apple.product-type.application";
 		};
+		47FABEBC2144B9E00065DB7E /* AVAudioSession 音频会话管理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47FABED02144B9E30065DB7E /* Build configuration list for PBXNativeTarget "AVAudioSession 音频会话管理" */;
+			buildPhases = (
+				47FABEB92144B9E00065DB7E /* Sources */,
+				47FABEBA2144B9E00065DB7E /* Frameworks */,
+				47FABEBB2144B9E00065DB7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AVAudioSession 音频会话管理";
+			productName = "AVAudioSession 音频会话管理";
+			productReference = 47FABEBD2144B9E00065DB7E /* AVAudioSession 音频会话管理.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2032,6 +2087,9 @@
 					47DAFAA6211703970047E910 = {
 						CreatedOnToolsVersion = 9.3;
 					};
+					47FABEBC2144B9E00065DB7E = {
+						CreatedOnToolsVersion = 9.3;
+					};
 				};
 			};
 			buildConfigurationList = 47DAF9892115CF190047E910 /* Build configuration list for PBXProject "iOS_UI" */;
@@ -2078,6 +2136,7 @@
 				472DF2E8211D3D3B00734656 /* NSThread 多线程 */,
 				472DF306211D42DA00734656 /* NSOperation 多任务 */,
 				472CC22721241DEA00254013 /* NSURLSession */,
+				47FABEBC2144B9E00065DB7E /* AVAudioSession 音频会话管理 */,
 			);
 		};
 /* End PBXProject section */
@@ -2373,7 +2432,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				47DAF9BC2115D3DD0047E910 /* LaunchScreen.storyboard in Resources */,
-				47FABE9E2143B9850065DB7E /* Default-568h@2x.png in Resources */,
 				47DAF9B92115D3DD0047E910 /* Assets.xcassets in Resources */,
 				47DAF9B72115D3DD0047E910 /* Main.storyboard in Resources */,
 			);
@@ -2407,6 +2465,16 @@
 				47DAFAB6211703980047E910 /* LaunchScreen.storyboard in Resources */,
 				47DAFAB3211703980047E910 /* Assets.xcassets in Resources */,
 				47DAFAB1211703970047E910 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47FABEBB2144B9E00065DB7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FABECC2144B9E30065DB7E /* LaunchScreen.storyboard in Resources */,
+				47FABEC92144B9E30065DB7E /* Assets.xcassets in Resources */,
+				47FABEC72144B9E00065DB7E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2728,6 +2796,16 @@
 				47DAFAAE211703970047E910 /* ViewController.m in Sources */,
 				47DAFAB9211703980047E910 /* main.m in Sources */,
 				47DAFAAB211703970047E910 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47FABEB92144B9E00065DB7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FABEC42144B9E00065DB7E /* ViewController.m in Sources */,
+				47FABECF2144B9E30065DB7E /* main.m in Sources */,
+				47FABEC12144B9E00065DB7E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3226,6 +3304,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				47DAFAB5211703980047E910 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		47FABEC52144B9E00065DB7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47FABEC62144B9E00065DB7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47FABECA2144B9E30065DB7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47FABECB2144B9E30065DB7E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -4401,6 +4495,40 @@
 			};
 			name = Release;
 		};
+		47FABED12144B9E30065DB7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "AVAudioSession 音频会话管理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.AVAudioSession-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47FABED22144B9E30065DB7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = "AVAudioSession 音频会话管理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.AVAudioSession-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -4688,6 +4816,15 @@
 			buildConfigurations = (
 				47DAFABB211703980047E910 /* Debug */,
 				47DAFABC211703980047E910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47FABED02144B9E30065DB7E /* Build configuration list for PBXNativeTarget "AVAudioSession 音频会话管理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47FABED12144B9E30065DB7E /* Debug */,
+				47FABED22144B9E30065DB7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
