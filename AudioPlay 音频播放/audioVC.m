@@ -57,6 +57,9 @@
         //设置录制音频的通道数
         [recordSettings setObject:[NSNumber numberWithInt:(_isSwitch =/* DISABLES CODE */ (YES) ?2:1)]forKey:AVNumberOfChannelsKey];
         
+        //每个采样点位数,分为8、16、24、32
+        [recordSettings setObject:@(16)forKey:AVLinearPCMBitDepthKey];
+        
         //设置录制音频采用高位优先的记录格式
         [recordSettings setObject:[NSNumber numberWithBool:YES]forKey:AVLinearPCMIsBigEndianKey];
         
@@ -95,7 +98,7 @@
 #pragma mark 播放
 - (IBAction)playBtnPress:(id)sender {
 
-//    NSURL* url = [NSURL fileURLWithPath:@"/Users/Batu/Music/Mato Grosso - The Last Of The Mohicans.mp3"];
+    _url = [NSURL fileURLWithPath:@"/Users/Batu/Music/QQ_music/testSound.wav"];
     //NSURL* url = [NSURL URLWithString:@""];
     
     //创建播放器
