@@ -184,6 +184,16 @@
 		4773C5222119A318006DA08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4773C5212119A318006DA08C /* Assets.xcassets */; };
 		4773C5252119A318006DA08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C5232119A318006DA08C /* LaunchScreen.storyboard */; };
 		4773C5282119A318006DA08C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C5272119A318006DA08C /* main.m */; };
+		47BE9ACA219128E600FA9C8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BE9AC9219128E600FA9C8D /* AppDelegate.m */; };
+		47BE9ACD219128E600FA9C8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BE9ACC219128E600FA9C8D /* ViewController.m */; };
+		47BE9AD0219128E600FA9C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47BE9ACE219128E600FA9C8D /* Main.storyboard */; };
+		47BE9AD2219128E900FA9C8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47BE9AD1219128E900FA9C8D /* Assets.xcassets */; };
+		47BE9AD5219128E900FA9C8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47BE9AD3219128E900FA9C8D /* LaunchScreen.storyboard */; };
+		47BE9AD8219128E900FA9C8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BE9AD7219128E900FA9C8D /* main.m */; };
+		47BE9AE0219129A600FA9C8D /* My_XIB_View.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BE9ADE219129A600FA9C8D /* My_XIB_View.m */; };
+		47BE9AE4219129B500FA9C8D /* sb_Secend_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BE9AE2219129B500FA9C8D /* sb_Secend_ViewController.m */; };
+		47BE9AE5219129B500FA9C8D /* SecendSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47BE9AE3219129B500FA9C8D /* SecendSB.storyboard */; };
+		47BE9AE721912AF400FA9C8D /* MyXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47BE9AE621912AF400FA9C8D /* MyXIB.xib */; };
 		47DAF9932115CF1A0047E910 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DAF9922115CF1A0047E910 /* AppDelegate.m */; };
 		47DAF9992115CF1A0047E910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DAF9972115CF1A0047E910 /* Main.storyboard */; };
 		47DAF99B2115CF1A0047E910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47DAF99A2115CF1A0047E910 /* Assets.xcassets */; };
@@ -520,6 +530,22 @@
 		4773C5242119A318006DA08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4773C5262119A318006DA08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4773C5272119A318006DA08C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47BE9AC6219128E600FA9C8D /* _UIStoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = _UIStoryBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47BE9AC8219128E600FA9C8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47BE9AC9219128E600FA9C8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47BE9ACB219128E600FA9C8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		47BE9ACC219128E600FA9C8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		47BE9ACF219128E600FA9C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47BE9AD1219128E900FA9C8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47BE9AD4219128E900FA9C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47BE9AD6219128E900FA9C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47BE9AD7219128E900FA9C8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47BE9ADC219129A600FA9C8D /* My_XIB_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = My_XIB_View.h; sourceTree = "<group>"; };
+		47BE9ADE219129A600FA9C8D /* My_XIB_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = My_XIB_View.m; sourceTree = "<group>"; };
+		47BE9AE1219129B500FA9C8D /* sb_Secend_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sb_Secend_ViewController.h; sourceTree = "<group>"; };
+		47BE9AE2219129B500FA9C8D /* sb_Secend_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sb_Secend_ViewController.m; sourceTree = "<group>"; };
+		47BE9AE3219129B500FA9C8D /* SecendSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SecendSB.storyboard; sourceTree = "<group>"; };
+		47BE9AE621912AF400FA9C8D /* MyXIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyXIB.xib; sourceTree = "<group>"; };
 		47DAF98E2115CF190047E910 /* iOS_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47DAF9912115CF1A0047E910 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		47DAF9922115CF1A0047E910 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -774,6 +800,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4773C5132119A315006DA08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BE9AC3219128E600FA9C8D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1284,6 +1317,28 @@
 			path = "UIGesture 平移-滑动-长按手势";
 			sourceTree = "<group>";
 		};
+		47BE9AC7219128E600FA9C8D /* _UIStoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				47BE9AE1219129B500FA9C8D /* sb_Secend_ViewController.h */,
+				47BE9AE2219129B500FA9C8D /* sb_Secend_ViewController.m */,
+				47BE9AE3219129B500FA9C8D /* SecendSB.storyboard */,
+				47BE9ADC219129A600FA9C8D /* My_XIB_View.h */,
+				47BE9ADE219129A600FA9C8D /* My_XIB_View.m */,
+				47BE9AE621912AF400FA9C8D /* MyXIB.xib */,
+				47BE9AC8219128E600FA9C8D /* AppDelegate.h */,
+				47BE9AC9219128E600FA9C8D /* AppDelegate.m */,
+				47BE9ACB219128E600FA9C8D /* ViewController.h */,
+				47BE9ACC219128E600FA9C8D /* ViewController.m */,
+				47BE9ACE219128E600FA9C8D /* Main.storyboard */,
+				47BE9AD1219128E900FA9C8D /* Assets.xcassets */,
+				47BE9AD3219128E900FA9C8D /* LaunchScreen.storyboard */,
+				47BE9AD6219128E900FA9C8D /* Info.plist */,
+				47BE9AD7219128E900FA9C8D /* main.m */,
+			);
+			path = _UIStoryBoard;
+			sourceTree = "<group>";
+		};
 		47DAF9852115CF190047E910 = {
 			isa = PBXGroup;
 			children = (
@@ -1305,6 +1360,7 @@
 				475A31C6211ABD9E00CD5EB9 /* _UINavigationController 导航控制器 */,
 				472DF18D211BD6EB00734656 /* _UIPickerView 选择视图 */,
 				472DF1CB211BEC7700734656 /* _UITableView 列表视图 */,
+				47BE9AC7219128E600FA9C8D /* _UIStoryBoard */,
 				47DAFA892116F2BA0047E910 /* UIViewController */,
 				47DAFAA8211703970047E910 /* NSTimer 定时器 */,
 				472DF1AC211BE62E00734656 /* NSUserDefaults 本地化全局类 */,
@@ -1362,6 +1418,7 @@
 				472CC22821241DEA00254013 /* NSURLSession.app */,
 				47FABEBD2144B9E00065DB7E /* AVAudioSession 音频会话管理.app */,
 				47FABF032144D0A80065DB7E /* NSNotificationCenter 通知中心.app */,
+				47BE9AC6219128E600FA9C8D /* _UIStoryBoard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1926,6 +1983,23 @@
 			productReference = 4773C5162119A315006DA08C /* UIGesture 平移-滑动-长按手势.app */;
 			productType = "com.apple.product-type.application";
 		};
+		47BE9AC5219128E600FA9C8D /* _UIStoryBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47BE9ADB219128E900FA9C8D /* Build configuration list for PBXNativeTarget "_UIStoryBoard" */;
+			buildPhases = (
+				47BE9AC2219128E600FA9C8D /* Sources */,
+				47BE9AC3219128E600FA9C8D /* Frameworks */,
+				47BE9AC4219128E600FA9C8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = _UIStoryBoard;
+			productName = _UIStoryBoard;
+			productReference = 47BE9AC6219128E600FA9C8D /* _UIStoryBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
 		47DAF98D2115CF190047E910 /* iOS_UI */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47DAF9A42115CF1A0047E910 /* Build configuration list for PBXNativeTarget "iOS_UI" */;
@@ -2132,6 +2206,9 @@
 					4773C5152119A315006DA08C = {
 						CreatedOnToolsVersion = 9.3;
 					};
+					47BE9AC5219128E600FA9C8D = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					47DAF98D2115CF190047E910 = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -2201,6 +2278,7 @@
 				472CC22721241DEA00254013 /* NSURLSession */,
 				47FABEBC2144B9E00065DB7E /* AVAudioSession 音频会话管理 */,
 				47FABF022144D0A80065DB7E /* NSNotificationCenter 通知中心 */,
+				47BE9AC5219128E600FA9C8D /* _UIStoryBoard */,
 			);
 		};
 /* End PBXProject section */
@@ -2471,6 +2549,18 @@
 				4773C5252119A318006DA08C /* LaunchScreen.storyboard in Resources */,
 				4773C5222119A318006DA08C /* Assets.xcassets in Resources */,
 				4773C5202119A315006DA08C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BE9AC4219128E600FA9C8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47BE9AD5219128E900FA9C8D /* LaunchScreen.storyboard in Resources */,
+				47BE9AD2219128E900FA9C8D /* Assets.xcassets in Resources */,
+				47BE9AE5219129B500FA9C8D /* SecendSB.storyboard in Resources */,
+				47BE9AD0219128E600FA9C8D /* Main.storyboard in Resources */,
+				47BE9AE721912AF400FA9C8D /* MyXIB.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2818,6 +2908,18 @@
 				4773C51D2119A315006DA08C /* ViewController.m in Sources */,
 				4773C5282119A318006DA08C /* main.m in Sources */,
 				4773C51A2119A315006DA08C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47BE9AC2219128E600FA9C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47BE9AE4219129B500FA9C8D /* sb_Secend_ViewController.m in Sources */,
+				47BE9ACD219128E600FA9C8D /* ViewController.m in Sources */,
+				47BE9AD8219128E900FA9C8D /* main.m in Sources */,
+				47BE9AE0219129A600FA9C8D /* My_XIB_View.m in Sources */,
+				47BE9ACA219128E600FA9C8D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3308,6 +3410,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				4773C5242119A318006DA08C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		47BE9ACE219128E600FA9C8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47BE9ACF219128E600FA9C8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47BE9AD3219128E900FA9C8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47BE9AD4219128E900FA9C8D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -4305,6 +4423,45 @@
 			};
 			name = Release;
 		};
+		47BE9AD9219128E900FA9C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = _UIStoryBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UIStoryBoard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47BE9ADA219128E900FA9C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L93RNVTT25;
+				INFOPLIST_FILE = _UIStoryBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "BT.-UIStoryBoard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		47DAF9A22115CF1A0047E910 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4888,6 +5045,15 @@
 			buildConfigurations = (
 				4773C52A2119A318006DA08C /* Debug */,
 				4773C52B2119A318006DA08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47BE9ADB219128E900FA9C8D /* Build configuration list for PBXNativeTarget "_UIStoryBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BE9AD9219128E900FA9C8D /* Debug */,
+				47BE9ADA219128E900FA9C8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
