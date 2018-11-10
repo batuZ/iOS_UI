@@ -27,8 +27,10 @@ StoryBoart组织APP结构的常用方法
     - (IBAction)backToRootVC:(UIStoryboardSegue *)segue
  
  6、从一个StoryBoart跳转到另一个StoryBoart，在团队协作时会用到
-    不能通过连线方式创建action,需要手动写跳传代码，如：
+    手动写跳传代码，如：
     - (IBAction)toSecendStoryBoard:(UIButton *)sender
+ 
+ 7、storyBoard reference
  
  7、StoryBoart引用xib,在某view需要在多处使用时，最好用纯代码创建UIView，也可以创建一个xib可视化界面供StoryBoart重复调用。这里以创建子视图为例，过程如下：
         a、创建一个继承于UIView的类(My_XIB_View)，和一个空的xib文件（My_XIB,最好同名,不同也行）。

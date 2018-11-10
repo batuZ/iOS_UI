@@ -106,6 +106,7 @@
 		475A3200211ADD0500CD5EB9 /* ViewController_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A31FF211ADD0500CD5EB9 /* ViewController_A.m */; };
 		475A3203211ADD1200CD5EB9 /* ViewController_B.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A3202211ADD1200CD5EB9 /* ViewController_B.m */; };
 		475A3206211ADD2000CD5EB9 /* ViewController_C.m in Sources */ = {isa = PBXBuildFile; fileRef = 475A3205211ADD2000CD5EB9 /* ViewController_C.m */; };
+		476D2AD921971A1E00CC47AE /* ThirdSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476D2AD821971A1E00CC47AE /* ThirdSB.storyboard */; };
 		4773C3DE21173DE0006DA08C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C3DD21173DE0006DA08C /* AppDelegate.m */; };
 		4773C3E121173DE0006DA08C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4773C3E021173DE0006DA08C /* ViewController.m */; };
 		4773C3E421173DE1006DA08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4773C3E221173DE1006DA08C /* Main.storyboard */; };
@@ -400,6 +401,7 @@
 		475A3202211ADD1200CD5EB9 /* ViewController_B.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController_B.m; sourceTree = "<group>"; };
 		475A3204211ADD2000CD5EB9 /* ViewController_C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController_C.h; sourceTree = "<group>"; };
 		475A3205211ADD2000CD5EB9 /* ViewController_C.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController_C.m; sourceTree = "<group>"; };
+		476D2AD821971A1E00CC47AE /* ThirdSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ThirdSB.storyboard; sourceTree = "<group>"; };
 		4773C3DA21173DE0006DA08C /* _UISwitch 开关控件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "_UISwitch 开关控件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4773C3DC21173DE0006DA08C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4773C3DD21173DE0006DA08C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1323,6 +1325,7 @@
 				47BE9AE1219129B500FA9C8D /* sb_Secend_ViewController.h */,
 				47BE9AE2219129B500FA9C8D /* sb_Secend_ViewController.m */,
 				47BE9AE3219129B500FA9C8D /* SecendSB.storyboard */,
+				476D2AD821971A1E00CC47AE /* ThirdSB.storyboard */,
 				47BE9ADC219129A600FA9C8D /* My_XIB_View.h */,
 				47BE9ADE219129A600FA9C8D /* My_XIB_View.m */,
 				47BE9AE621912AF400FA9C8D /* MyXIB.xib */,
@@ -2561,6 +2564,7 @@
 				47BE9AE5219129B500FA9C8D /* SecendSB.storyboard in Resources */,
 				47BE9AD0219128E600FA9C8D /* Main.storyboard in Resources */,
 				47BE9AE721912AF400FA9C8D /* MyXIB.xib in Resources */,
+				476D2AD921971A1E00CC47AE /* ThirdSB.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

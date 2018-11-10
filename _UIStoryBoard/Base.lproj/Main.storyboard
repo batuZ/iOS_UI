@@ -42,6 +42,14 @@
                                     <action selector="toSecendStoryBoard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xUL-BW-dDd"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6l-zV-gxe">
+                                <rect key="frame" x="62" y="318" width="180" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="goto ThirdSB by reference"/>
+                                <connections>
+                                    <segue destination="QGr-Jc-VM4" kind="show" id="77T-br-wNj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.45539132297766027" blue="0.24949448806906138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -65,7 +73,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j5z-mu-I3e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1220" y="376"/>
+            <point key="canvasLocation" x="1303" y="375"/>
         </scene>
         <!--OtherVC-->
         <scene sceneID="sb7-xt-SUf">
@@ -104,6 +112,14 @@
                 <exit id="Zq0-v7-7SE" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="417" y="1155"/>
+        </scene>
+        <!--ThirdSB_1-->
+        <scene sceneID="Q7l-i1-k9h">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ThirdSB" referencedIdentifier="ThirdSB_1" id="QGr-Jc-VM4" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nl1-9y-yWm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1070" y="-85"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="R52-3F-I4P">
